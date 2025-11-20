@@ -35,10 +35,7 @@
         <li>Strength training and human performance expert with a foundation in biomechanics, exercise physiology, nutrition, and behavior change.</li>
         <li>Creator of the <strong>Motivue Empowerment & Education Methodology</strong>—a model where clients “graduate” with real health autonomy.</li>
         <li>Focus on turning training from a sales-driven service into a repeatable, education-first system.</li>
-         <li>Motivue-Backend (in progress, to be open-sourced)
-
-I’m also building **Motivue-Backend**, a backend engine for daily readiness and weekly reviews, designed to turn this methodology into code. It uses a Bayesian prior/posterior model to fuse training load, HRV, sleep, biomarkers, Hooper scores, menstrual cycle signals and journals into a daily readiness score, plus a separate baseline service that learns personal “normal ranges” over time. On top of that, a multi‑agent LLM pipeline generates weekly review reports from the same state. The architecture is heavily informed by synthesising insights from hundreds of sports science, HRV and fatigue‑management papers.  
-The project is still being refined and is not open‑sourced yet, but I plan to release it once the core design stabilises.
+         <li>(in progress, to be open-sourced)I’m also building Motivue, a engine for daily readiness and weekly reviews, designed to turn this methodology into code. 
 </li>
       </ul>
     </td>
