@@ -143,7 +143,7 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
   <ul style="list-style-type: none; padding: 0;">
     <li>👶 <strong>Born in Shenzhen</strong>: The Origin Story.</li>
     <li>📘 <strong>University of Sydney</strong>: Undergraduate Foundations.</li>
-    <li>🎓 <strong>University of Melbourne</strong>: Masters in Systems.</li>
+    <li>🎓 <strong>University of Melbourne</strong>: Computing Systems.</li>
     <li>🌆 <strong>Base in Shenzhen</strong>: Building FlyingCat Systems.</li>
   </ul>
 </div>

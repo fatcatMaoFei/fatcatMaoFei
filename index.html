@@ -487,13 +487,13 @@
             <div class="timeline-item right">
                 <div class="timeline-content glass-card">
                     <h2>📘 University of Sydney</h2>
-                    <p>Undergraduate Studies. Exploring the foundations.</p>
+                    <p>Undergraduate Foundations.</p>
                 </div>
             </div>
             <div class="timeline-item left">
                 <div class="timeline-content glass-card">
                     <h2>🎓 University of Melbourne</h2>
-                    <p>Mastering Systems. Advanced computations & innovation.</p>
+                    <p>Computing Systems. System Architecture & Algorithms.</p>
                 </div>
             </div>
             <div class="timeline-item right">
@@ -505,7 +505,29 @@
         </div>
     </section>
 
+    <!-- 3D TECH SPHERE SECTION -->
+    <section>
+        <div class="section-title">☁️ Tech Atmosphere ☁️</div>
+        <div class="glass-card"
+            style="text-align: center; max-width: 800px; margin: 0 auto; min-height: 400px; display: flex; align-items: center; justify-content: center;">
+            <div id="tagcloud"></div>
+        </div>
+    </section>
 
+    <!-- GUESTBOOK SECTION -->
+    <section style="text-align: center; margin: 5rem 0;">
+        <div class="glass-card" style="display: inline-block;">
+            <h2>📝 Leave a Mark</h2>
+            <p>Sign the Guestbook via GitHub Issues!</p>
+            <a href="https://github.com/fatcatMaoFei/fatcatMaoFei/issues" target="_blank"
+                style="text-decoration: none;">
+                <button
+                    style="background: #A35DD9; color: white; border: none; padding: 15px 30px; border-radius: 30px; font-size: 1.2rem; cursor: pointer; font-family: 'Pacifico', cursive; box-shadow: 0 5px 15px rgba(163, 93, 217, 0.4);">
+                    Sign Guestbook ✍️
+                </button>
+            </a>
+        </div>
+    </section>
 
     <!-- GAME SECTION -->
     <section style="text-align: center; margin-bottom: 5rem;">
@@ -519,6 +541,35 @@
         </div>
     </section>
 
+    <!-- FLOATING TERMINAL BUTTON -->
+    <div onclick="openTerminal()"
+        style="position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px; background: #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 5px 15px rgba(0,0,0,0.3); z-index: 1000; border: 2px solid #FF69B4;">
+        <span style="font-size: 30px;">💻</span>
+    </div>
+
+    <!-- TERMINAL MODAL -->
+    <div id="terminalModal" class="modal" style="display: none;">
+        <div class="modal-content"
+            style="background: #1a1a1a; color: #00ff00; font-family: 'Fira Code', monospace; padding: 20px; border-radius: 10px; border: 2px solid #333; width: 600px; max-width: 90%; text-align: left; box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);">
+            <div
+                style="display: flex; justify-content: space-between; margin-bottom: 10px; border-bottom: 1px solid #333; padding-bottom: 10px;">
+                <span>flycat@shenzhen:~</span>
+                <span onclick="closeTerminal()" style="cursor: pointer; color: #ff5555;">[x]</span>
+            </div>
+            <div id="terminalOutput"
+                style="height: 300px; overflow-y: auto; margin-bottom: 10px; white-space: pre-wrap;">Welcome to
+                FlyingCat Shell v1.0
+                Type 'help' to see available commands.
+            </div>
+            <div style="display: flex;">
+                <span style="color: #ff69b4; margin-right: 10px;">➜</span>
+                <input type="text" id="terminalInput"
+                    style="background: transparent; border: none; color: #fff; font-family: inherit; flex: 1; outline: none;"
+                    autofocus>
+            </div>
+        </div>
+    </div>
+
     <!-- GAME MODAL -->
     <div id="gameModal" class="modal">
         <div class="modal-content glass-card" style="text-align: center;">
@@ -529,128 +580,123 @@
         </div>
     </div>
 
-    <!-- STYLE INJECTION FOR NEW FEATURES -->
-    <style>
-        /* Timeline */
-        .timeline {
-            position: relative;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    }
 
-        .timeline::after {
-            content: '';
-            position: absolute;
-            width: 6px;
-            background-color: #FFB6C1;
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -3px;
-            border-radius: 3px;
-        }
+    .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #FFB6C1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 3px;
+    }
 
-        .timeline-item {
-            padding: 10px 40px;
-            position: relative;
-            background-color: inherit;
-            width: 50%;
-            box-sizing: border-box;
-        }
+    .timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    box-sizing: border-box;
+    }
 
-        .timeline-item.left {
-            left: 0;
-        }
+    .timeline-item.left {
+    left: 0;
+    }
 
-        .timeline-item.right {
-            left: 50%;
-        }
+    .timeline-item.right {
+    left: 50%;
+    }
 
-        .timeline-item::after {
-            content: '🌸';
-            position: absolute;
-            width: 25px;
-            height: 25px;
-            right: -17px;
-            background-color: #fff;
-            border: 4px solid #FF69B4;
-            top: 15px;
-            border-radius: 50%;
-            z-index: 1;
-            font-size: 1.2rem;
-            line-height: 25px;
-            text-align: center;
-        }
+    .timeline-item::after {
+    content: '🌸';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #fff;
+    border: 4px solid #FF69B4;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 1.2rem;
+    line-height: 25px;
+    text-align: center;
+    }
 
-        .timeline-item.right::after {
-            left: -16px;
-        }
+    .timeline-item.right::after {
+    left: -16px;
+    }
 
-        /* Music Grid */
-        .music-grid {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            flex-wrap: wrap;
-            max-width: 1000px;
-            margin: 0 auto 3rem auto;
-        }
+    /* Music Grid */
+    .music-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto 3rem auto;
+    }
 
-        .music-card {
-            width: 200px;
-            text-align: center;
-            text-decoration: none;
-            color: #333;
-            transition: transform 0.3s;
-        }
+    .music-card {
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s;
+    }
 
-        .music-card:hover {
-            transform: scale(1.1) rotate(2deg);
-        }
+    .music-card:hover {
+    transform: scale(1.1) rotate(2deg);
+    }
 
-        .music-card img {
-            width: 100%;
-            border-radius: 10px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-        }
+    .music-card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
 
-        .music-card p {
-            margin-top: 10px;
-            font-weight: bold;
-            font-family: 'Pacifico', cursive;
-            color: #FF1493;
-        }
+    .music-card p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    color: #FF1493;
+    }
 
-        /* Modal */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 100;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.4);
-            backdrop-filter: blur(5px);
-        }
+    /* Modal */
+    .modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    }
 
-        .modal-content {
-            margin: 5% auto;
-            width: fit-content;
-        }
+    .modal-content {
+    margin: 5% auto;
+    width: fit-content;
+    }
 
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
+    .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    }
 
-        .close:hover {
-            color: #000;
-        }
+    .close:hover {
+    color: #000;
+    }
     </style>
 
     <!-- GAME SCRIPT -->
