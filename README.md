@@ -40,46 +40,47 @@
 
 <br />
 
-<!-- 🌸 K-POP GALLERY 🌸 -->
-<!-- Organised Table Layout -->
+<!-- 🌸 K-POP GALLERY: TWO TRIANGLES 🌸 -->
 <div align="center">
-  <table border="0" cellpadding="10" cellspacing="0">
-    <!-- Row 1: 3 Images -->
+  
+  <!-- Triangle 1: 3 Images -->
+  <table border="0" cellpadding="15">
+    <!-- Top Point -->
     <tr>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" height="200" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" height="200" style="border-radius: 15px; border: 4px solid #E0BBE4;" />
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/3c441429-4226-4a13-aee5-4e06ae8d2620" height="200" style="border-radius: 15px; border: 4px solid #957DAD;" />
+      <td colspan="2" align="center">
+        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" height="220" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
       </td>
     </tr>
-    <!-- Row 2: 2 Images (Centered by nature of the table or just 2 cols? Let's use colspan to center if possible, or just a new row) -->
-  </table>
-  
-  <table border="0" cellpadding="10" cellspacing="0">
-     <tr>
+    <!-- Bottom Base -->
+    <tr>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="200" style="border-radius: 15px; border: 4px solid #D291BC;" />
+        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" height="220" style="border-radius: 15px; border: 4px solid #E0BBE4;" />
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" height="200" style="border-radius: 15px; border: 4px solid #FEC8D8;" />
+        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="220" style="border-radius: 15px; border: 4px solid #D291BC;" />
       </td>
     </tr>
   </table>
 
-  <table border="0" cellpadding="10" cellspacing="0">
+  <!-- Triangle 2: 3 Images -->
+  <table border="0" cellpadding="15">
+    <!-- Top Point -->
+    <tr>
+      <td colspan="2" align="center">
+        <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" height="220" style="border-radius: 15px; border: 4px solid #FEC8D8;" />
+      </td>
+    </tr>
+    <!-- Bottom Base -->
     <tr>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" height="200" style="border-radius: 15px; border: 4px solid #FFDFD3;" />
+        <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" height="220" style="border-radius: 15px; border: 4px solid #FFDFD3;" />
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" height="200" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
+        <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" height="220" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
       </td>
     </tr>
   </table>
+
 </div>
 
 <br />
