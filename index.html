@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyingCat | K-Pop Aesthetic Profile</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Outfit:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #FF69B4; /* Hot Pink */
+            --secondary: #A35DD9; /* Purple */
+            --glass-bg: rgba(255, 255, 255, 0.25);
+            --glass-border: rgba(255, 255, 255, 0.5);
+            --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            /* K-Pop Baby Pink Gradient */
+            background: linear-gradient(135deg, #FFE4E1 0%, #FFB6C1 50%, #FFC0CB 100%);
+            background-attachment: fixed;
+            font-family: 'Outfit', sans-serif;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Glassmorphism Card Utility */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid var(--glass-border);
+            box-shadow: var(--shadow);
+            padding: 2rem;
+            margin: 1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Header Section */
+        header {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            padding: 2rem;
+        }
+
+        /* Floating Animation for Images */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .hero-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end; /* Bottom align for standing figures */
+            gap: 2rem;
+            width: 100%;
+            max-width: 1400px;
+            flex-wrap: wrap;
+        }
+
+        .hero-img {
+            width: 350px;
+            border-radius: 20px;
+            border: 5px solid #FFC0CB;
+            box-shadow: 0 0 30px #FFB6C1;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .hero-img.delay {
+            animation-delay: 3s;
+        }
+
+        .hero-content {
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 10;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 5rem;
+            color: white;
+            text-shadow: 2px 2px 0px var(--primary);
+            margin: 0;
+            margin-bottom: 1rem;
+        }
+
+        .typing-container img {
+            max-width: 100%;
+        }
+
+        .badges {
+            display: flex;
+            gap: 10px;
+            margin-top: 1.5rem;
+        }
+
+        .badges img {
+            height: 35px;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+
+        .badges img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Dual Duality Section */
+        .section-title {
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            font-size: 3rem;
+            color: var(--primary);
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            text-shadow: 2px 20px 20px rgba(255,105,180,0.2);
+        }
+
+        .duality-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .duality-card h2 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            margin-top: 0;
+        }
+        
+        .duality-card ul {
+            list-style: none; /* Custom bullets */
+            padding-left: 0;
+            text-align: left;
+        }
+        
+        .duality-card li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .duality-card li::before {
+            content: '🍬';
+            position: absolute;
+            left: 0;
+        }
+
+        /* Gallery Section */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .gallery-item {
+            border-radius: 20px;
+            overflow: hidden;
+            border: 5px solid;
+            transition: transform 0.3s;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.05) rotate(1deg);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 330px; /* Fixed height match */
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 5rem;
+            text-align: center;
+            font-family: 'Fira Code', monospace;
+            color: #666;
+            padding-bottom: 2rem;
+        }
+
+        /* Responsive Tweaks */
+        @media (max-width: 900px) {
+            .hero-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .hero-img {
+                width: 280px; /* Smaller on mobile */
+            }
+            h1 { font-size: 3.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header>
+        <h1>FlyingCat</h1>
+        <div class="hero-container">
+            <!-- Karina -->
+            <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" class="hero-img" alt="Karina">
+            
+            <!-- Center Content -->
+            <div class="hero-content glass-card">
+                <!-- Tech Typing -->
+                <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=A35DD9&center=true&vCenter=true&width=420&lines=Founder+of+Aequa+Network;Decentralized+Fairness+(FaaS);Founder+of+Motivue;Next-Gen+Wearables+%26+Biometrics;Soldering+Code+%26+Circuits" alt="Tech Typing" />
+                <br>
+                <!-- Vibe Typing -->
+                <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=500&size=26&pause=800&color=FF69B4&center=true&vCenter=true&width=420&lines=✨+Stan+Talent,+Stan+Code+✨;❤️+Simping+for+Karina+%26+Sana+❤️;🚀+To+the+Moon+%26+Beyond+🚀;🌸+Savage+on+Chain,+Sweet+on+Health+🌸" alt="Vibe Typing" />
+                
+                <div class="badges">
+                    <img src="https://img.shields.io/badge/Gmail-FFB6C1?style=for-the-badge&logo=gmail&logoColor=white" />
+                    <img src="https://img.shields.io/badge/X-FFC0CB?style=for-the-badge&logo=x&logoColor=white" />
+                    <img src="https://img.shields.io/badge/GitHub-FFE4E1?style=for-the-badge&logo=github&logoColor=black" />
+                </div>
+            </div>
+
+            <!-- Sana -->
+            <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" class="hero-img delay" alt="Sana">
+        </div>
+    </header>
+
+    <!-- DUAL DUALITY -->
+    <section>
+        <div class="section-title">🍰 The Dual Duality 🍰</div>
+        <div class="duality-grid">
+            <!-- Motivue Card -->
+            <div class="glass-card duality-card" style="border-top: 5px solid #FFB6C1;">
+                <h2>🎀 Motivue: Wearable Intelligence</h2>
+                <p><strong>"Feel Special, Be Strong."</strong></p>
+                <ul>
+                    <li>🧸 <strong>Products</strong>: Motiband & Motiring</li>
+                    <li>💖 <strong>Vibe</strong>: Health, Strength, Autonomy</li>
+                    <li>🍬 <strong>Tech</strong>: AI4Sport Analytics</li>
+                </ul>
+            </div>
+            
+            <!-- Aequa Card -->
+            <div class="glass-card duality-card" style="border-top: 5px solid #A35DD9;">
+                <h2>🍭 Aequa Network: Fairness Layer</h2>
+                <p><strong>"Next Level Decentralization."</strong></p>
+                <ul>
+                    <li>💫 <strong>Tech</strong>: Modular DVT Engine (Go)</li>
+                    <li>🧁 <strong>Vibe</strong>: MEV Resistance, Neutrality</li>
+                    <li>🎡 <strong>Goal</strong>: The "Justice Layer" of Crypto</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY ROW 1 (Tech Stack Side) -->
+    <section>
+        <div class="section-title">🍭 Tech Stack 🍭</div>
+        <div class="gallery-grid">
+            <div class="gallery-item" style="border-color: #FFB6C1;">
+                <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" />
+            </div>
+            <div class="gallery-item" style="border-color: #FFD1DC;">
+                <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" />
+            </div>
+            <div class="gallery-item" style="border-color: #FFE4E1;">
+                <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" />
+            </div>
+        </div>
+        
+        <div align="center" style="margin: 2rem;">
+            <div class="glass-card" style="display: inline-block;">
+                <img src="https://skillicons.dev/icons?i=go,swift,python,java,c,cpp,rust,docker,kubernetes,githubactions&perline=10&theme=light" style="margin-bottom: 1rem;"/><br>
+                <img src="https://skillicons.dev/icons?i=postgres,redis,prometheus,grafana,linux,git,vim,vscode,idea&perline=10&theme=light" />
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY ROW 2 -->
+    <section style="margin-bottom: 5rem;">
+        <div class="gallery-grid">
+            <div class="gallery-item" style="border-color: #FFB6C1;">
+                <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" />
+            </div>
+            <div class="gallery-item" style="border-color: #FFC0CB;">
+                <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" />
+            </div>
+            <div class="gallery-item" style="border-color: #FFE4E1;">
+                <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" />
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Made with 💖 by FlyingCat</p>
+        <p>2026 © All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
