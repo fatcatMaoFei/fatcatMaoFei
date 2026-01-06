@@ -3,14 +3,22 @@
   <!-- Colors shifted to soft Baby Pink / Pastel range -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC0CB,50:FFB6C1,100:FFE4E1&height=320&section=header&text=FlyingCat&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Building%20Systems%20for%20Body%20&%20Blockchain&descSize=25&descAlignY=55&descAlign=50" alt="FlyingCat K-Pop Header" width="100%" />
 
-  <!-- Integrated Visuals: Karina (Left) | Content (Center) | Sana (Right) -->
-  <table border="0" width="100%">
+  <!-- Integrated Visuals: MAXIMIZED LAYOUT -->
+  <!-- Row 1: Images spaced out (550px is too big for 50% col, set to 100% of cell width approx 400px) -->
+  <table border="0" width="100%" cellpadding="0" cellspacing="0">
     <tr>
-      <td width="25%" align="center" valign="bottom">
-        <!-- Enlarged MAX (420 -> 550) + Baby Pink Border -->
-        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="550" alt="Karina aespa" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
+      <td width="50%" align="center" valign="bottom" style="padding-right: 20px;">
+        <!-- Karina Maximized -->
+        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="100%" style="max-width: 450px; border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" alt="Karina aespa" />
       </td>
-      <td width="50%" align="center">
+      <td width="50%" align="center" valign="bottom" style="padding-left: 20px;">
+        <!-- Sana Maximized -->
+        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="100%" style="max-width: 450px; border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" alt="Sana TWICE" />
+      </td>
+    </tr>
+    <!-- Row 2: Content (Moved below to allow images to expand) -->
+    <tr>
+      <td colspan="2" align="center" style="padding-top: 30px;">
         <!-- Animated Typing with Baby Pink Colors -->
         <a href="https://git.io/typing-svg">
           <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=Founder+of+Aequa+Network;Founder+of+Motivue;Next-Gen+Wearables+%26+Biometrics;Decentralized+Fairness+(FaaS);Stan+Talent,+Stan+Code" alt="Typing SVG" />
@@ -29,10 +37,6 @@
             <img src="https://img.shields.io/badge/GitHub-FFE4E1?style=for-the-badge&logo=github&logoColor=black" height="35" />
           </a>
         </p>
-      </td>
-      <td width="25%" align="center" valign="bottom">
-        <!-- Enlarged MAX (420 -> 550) + Baby Pink Border -->
-        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="550" alt="Sana TWICE" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
       </td>
     </tr>
   </table>
