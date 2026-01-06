@@ -40,6 +40,19 @@
 
 <br />
 
+<!-- 🌸 MOOD BOARD / GALLERY 🌸 -->
+<!-- Evenly distributed images with Cute Pink Borders -->
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3c441429-4226-4a13-aee5-4e06ae8d2620" height="200" style="border-radius: 15px; border: 4px solid #FFB6C1; margin: 10px;" />
+  <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="200" style="border-radius: 15px; border: 4px solid #FFB6C1; margin: 10px;" />
+  <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" height="200" style="border-radius: 15px; border: 4px solid #FFB6C1; margin: 10px;" />
+  <br/>
+  <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" height="200" style="border-radius: 15px; border: 4px solid #FFB6C1; margin: 10px;" />
+  <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" height="200" style="border-radius: 15px; border: 4px solid #FFB6C1; margin: 10px;" />
+</div>
+
+<br />
+
 ---
 
 ### 🧱 The Dual Duality
