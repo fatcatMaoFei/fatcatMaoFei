@@ -7,9 +7,9 @@
   <table border="0" width="100%">
     <tr>
       <td width="30%" align="center" valign="bottom">
-        <!-- Balanced Size: Width fixed, Height Auto (Full Image) -->
+        <!-- Balanced Size: ~350px -->
         <a href="https://www.instagram.com/katarinabluu">
-          <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="100%" style="max-width:350px; border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
+          <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="350" alt="Karina aespa" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
         </a>
       </td>
       <td width="40%" align="center">
@@ -39,9 +39,9 @@
         </p>
       </td>
       <td width="30%" align="center" valign="bottom">
-        <!-- Balanced Size: Width fixed, Height Auto (Full Image) -->
+        <!-- Balanced Size: ~350px -->
         <a href="https://www.instagram.com/m.by__sana">
-          <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="100%" style="max-width:350px; border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
+          <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="350" alt="Sana TWICE" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
         </a>
       </td>
     </tr>
@@ -81,14 +81,14 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 <div align="center">
   <table border="0" cellpadding="20">
     <tr>
-      <td align="center" valign="top">
-        <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" width="100%" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" height="330" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
       </td>
-      <td align="center" valign="top">
-        <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" width="100%" style="border-radius: 20px; border: 5px solid #FFC0CB;" />
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" height="330" style="border-radius: 20px; border: 5px solid #FFC0CB;" />
       </td>
-      <td align="center" valign="top">
-        <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" width="100%" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" height="330" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
       </td>
     </tr>
   </table>
@@ -118,14 +118,14 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 <div align="center">
   <table border="0" cellpadding="20">
     <tr>
-      <td align="center" valign="top">
-        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" width="100%" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" height="330" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
       </td>
-      <td align="center" valign="top">
-        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" width="100%" style="border-radius: 20px; border: 5px solid #FFD1DC;" />
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" height="330" style="border-radius: 20px; border: 5px solid #FFD1DC;" />
       </td>
-      <td align="center" valign="top">
-        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" width="100%" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="330" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
       </td>
     </tr>
   </table>
