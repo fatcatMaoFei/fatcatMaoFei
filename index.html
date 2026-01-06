@@ -580,124 +580,210 @@
         </div>
     </div>
 
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    }
+    <!-- STYLE INJECTION FOR NEW FEATURES -->
+    <style>
+        /* Timeline */
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
 
-    .timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #FFB6C1;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-    border-radius: 3px;
-    }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #FFB6C1;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+            border-radius: 3px;
+        }
 
-    .timeline-item {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-    box-sizing: border-box;
-    }
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+            box-sizing: border-box;
+        }
 
-    .timeline-item.left {
-    left: 0;
-    }
+        .timeline-item.left {
+            left: 0;
+        }
 
-    .timeline-item.right {
-    left: 50%;
-    }
+        .timeline-item.right {
+            left: 50%;
+        }
 
-    .timeline-item::after {
-    content: '🌸';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: #fff;
-    border: 4px solid #FF69B4;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-    font-size: 1.2rem;
-    line-height: 25px;
-    text-align: center;
-    }
+        .timeline-item::after {
+            content: '🌸';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -17px;
+            background-color: #fff;
+            border: 4px solid #FF69B4;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+            font-size: 1.2rem;
+            line-height: 25px;
+            text-align: center;
+        }
 
-    .timeline-item.right::after {
-    left: -16px;
-    }
+        .timeline-item.right::after {
+            left: -16px;
+        }
 
-    /* Music Grid */
-    .music-grid {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin: 0 auto 3rem auto;
-    }
+        /* Music Grid */
+        .music-grid {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto 3rem auto;
+        }
 
-    .music-card {
-    width: 200px;
-    text-align: center;
-    text-decoration: none;
-    color: #333;
-    transition: transform 0.3s;
-    }
+        .music-card {
+            width: 200px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.3s;
+        }
 
-    .music-card:hover {
-    transform: scale(1.1) rotate(2deg);
-    }
+        .music-card:hover {
+            transform: scale(1.1) rotate(2deg);
+        }
 
-    .music-card img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    }
+        .music-card img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
 
-    .music-card p {
-    margin-top: 10px;
-    font-weight: bold;
-    font-family: 'Pacifico', cursive;
-    color: #FF1493;
-    }
+        .music-card p {
+            margin-top: 10px;
+            font-weight: bold;
+            font-family: 'Pacifico', cursive;
+            color: #FF1493;
+        }
 
-    /* Modal */
-    .modal {
-    display: none;
-    position: fixed;
-    z-index: 100;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(5px);
-    }
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 100;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(5px);
+        }
 
-    .modal-content {
-    margin: 5% auto;
-    width: fit-content;
-    }
+        .modal-content {
+            margin: 5% auto;
+            width: fit-content;
+        }
 
-    .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-    }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
 
-    .close:hover {
-    color: #000;
-    }
+        .close:hover {
+            color: #000;
+        }
     </style>
+
+    <!-- TagCloud Script & Terminal Logic -->
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+    <script>
+        // 3D SPHERE
+        const myTags = [
+            'Go', 'Swift', 'Rust', 'Python',
+            'Docker', 'Kubernetes', 'Git',
+            'React', 'Node.js', 'PostgreSQL',
+            'Redis', 'Linux', 'AWS', 'GCP',
+            'Solidity', 'Web3', 'Blockchain'
+        ];
+
+        window.addEventListener('load', () => {
+            TagCloud('#tagcloud', myTags, {
+                radius: 200,
+                maxSpeed: 'normal',
+                initSpeed: 'normal',
+                direction: 135,
+                keep: true
+            });
+            // Style adjustment
+            document.querySelector('.tagcloud').style.color = '#FF1493';
+            document.querySelector('.tagcloud').style.fontFamily = 'Fira Code';
+            document.querySelector('.tagcloud').style.fontWeight = 'bold';
+        });
+
+        // TERMINAL LOGIC
+        function openTerminal() {
+            document.getElementById('terminalModal').style.display = 'block';
+            document.getElementById('terminalInput').focus();
+        }
+        function closeTerminal() {
+            document.getElementById('terminalModal').style.display = 'none';
+        }
+
+        const terminalOutput = document.getElementById('terminalOutput');
+        const terminalInput = document.getElementById('terminalInput');
+
+        if (terminalInput) {
+            terminalInput.addEventListener('keydown', function (e) {
+                if (e.key === 'Enter') {
+                    const command = this.value.trim().toLowerCase();
+                    this.value = '';
+                    printOutput(`➜ ${command}`);
+                    processCommand(command);
+                }
+            });
+        }
+
+        function printOutput(text) {
+            if (!terminalOutput) return;
+            terminalOutput.innerHTML += `<div>${text}</div>`;
+            terminalOutput.scrollTop = terminalOutput.scrollHeight;
+        }
+
+        function processCommand(cmd) {
+            switch (cmd) {
+                case 'help':
+                    printOutput("Available commands: whoami, skills, social, clear, uname");
+                    break;
+                case 'whoami':
+                    printOutput("FlyingCat (Ziming Liu). \nFull Stack Engineer. \nLover of Cats, Code, and K-Pop.");
+                    break;
+                case 'skills':
+                    printOutput("Languages: Go, Swift, Rust, Python\nInfra: Docker, K8s, AWS\nVibe: 100%");
+                    break;
+                case 'social':
+                    printOutput("GitHub: https://github.com/fatcatMaoFei\nTwitter: @AequaNetwork");
+                    break;
+                case 'uname':
+                    printOutput("Darwin Kernel Version 23.0.0: root:xnu-10002.1.13~1/RELEASE_ARM64_T6000");
+                    break;
+                case 'clear':
+                    terminalOutput.innerHTML = '';
+                    break;
+                default:
+                    printOutput(`Command not found: ${cmd}`);
+            }
+        }
+    </script>
 
     <!-- GAME SCRIPT -->
     <script>
