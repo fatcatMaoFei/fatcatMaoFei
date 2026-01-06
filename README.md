@@ -1,38 +1,38 @@
 <div align="center">
-  <!-- AESPA x TWICE Header Gradient: PINK EDITION -->
-  <!-- Name changed to FlyingCat, Gradient shifted to full Pink spectrum -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF1493,50:FF69B4,100:FFB6C1&height=320&section=header&text=FlyingCat&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Building%20Systems%20for%20Body%20&%20Blockchain&descSize=25&descAlignY=55&descAlign=50" alt="FlyingCat K-Pop Header" width="100%" />
+  <!-- AESPA x TWICE Header Gradient: BABY PINK EDITION -->
+  <!-- Colors shifted to soft Baby Pink / Pastel range -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC0CB,50:FFB6C1,100:FFE4E1&height=320&section=header&text=FlyingCat&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Building%20Systems%20for%20Body%20&%20Blockchain&descSize=25&descAlignY=55&descAlign=50" alt="FlyingCat K-Pop Header" width="100%" />
 
   <!-- Integrated Visuals: Karina (Left) | Content (Center) | Sana (Right) -->
   <table border="0" width="100%">
     <tr>
       <td width="25%" align="center" valign="bottom">
-        <!-- Enlarged + Fancy Border: Karina -->
-        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="280" alt="Karina aespa" style="border-radius: 20px; border: 4px solid #A35DD9; box-shadow: 0px 0px 25px #A35DD9, 0px 0px 10px #FF3399;" />
+        <!-- Enlarged 1.5x (280 -> 420) + Baby Pink Border -->
+        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="420" alt="Karina aespa" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
       </td>
       <td width="50%" align="center">
-        <!-- Animated Typing with Neon Colors -->
+        <!-- Animated Typing with Baby Pink Colors -->
         <a href="https://git.io/typing-svg">
-          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF3399&center=true&vCenter=true&width=500&lines=Founder+of+Aequa+Network;Founder+of+Motivue;Next-Gen+Wearables+%26+Biometrics;Decentralized+Fairness+(FaaS);Stan+Talent,+Stan+Code" alt="Typing SVG" />
+          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=Founder+of+Aequa+Network;Founder+of+Motivue;Next-Gen+Wearables+%26+Biometrics;Decentralized+Fairness+(FaaS);Stan+Talent,+Stan+Code" alt="Typing SVG" />
         </a>
         <br/><br/>
         <p>
           <a href="mailto:zmliu0208@gmail.com">
-            <img src="https://img.shields.io/badge/Gmail-FF3399?style=for-the-badge&logo=gmail&logoColor=white" height="35" />
+            <img src="https://img.shields.io/badge/Gmail-FFB6C1?style=for-the-badge&logo=gmail&logoColor=white" height="35" />
           </a>
           <br/><br/>
           <a href="https://x.com/AequaNetwork">
-            <img src="https://img.shields.io/badge/X-A35DD9?style=for-the-badge&logo=x&logoColor=white" height="35" />
+            <img src="https://img.shields.io/badge/X-FFC0CB?style=for-the-badge&logo=x&logoColor=white" height="35" />
           </a>
           <br/><br/>
           <a href="https://github.com/fatcatMaoFei">
-            <img src="https://img.shields.io/badge/GitHub-FCC89B?style=for-the-badge&logo=github&logoColor=white" height="35" />
+            <img src="https://img.shields.io/badge/GitHub-FFE4E1?style=for-the-badge&logo=github&logoColor=black" height="35" />
           </a>
         </p>
       </td>
       <td width="25%" align="center" valign="bottom">
-        <!-- Enlarged + Fancy Border: Sana -->
-        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="280" alt="Sana TWICE" style="border-radius: 20px; border: 4px solid #FCC89B; box-shadow: 0px 0px 25px #FCC89B, 0px 0px 10px #FF3399;" />
+        <!-- Enlarged 1.5x (280 -> 420) + Baby Pink Border -->
+        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="420" alt="Sana TWICE" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
       </td>
     </tr>
   </table>
@@ -62,18 +62,18 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 
 <br />
 
-<!-- 🌸 GALLERY ROW 2 (Now First) 🌸 -->
+<!-- 🌸 GALLERY ROW 2 (Enlarged 1.5x: 220 -> 330) 🌸 -->
 <div align="center">
-  <table border="0" cellpadding="15">
+  <table border="0" cellpadding="20">
     <tr>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" height="220" style="border-radius: 15px; border: 4px solid #FEC8D8;" />
+        <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" height="330" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" height="220" style="border-radius: 15px; border: 4px solid #FFDFD3;" />
+        <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" height="330" style="border-radius: 20px; border: 5px solid #FFC0CB;" />
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" height="220" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
+        <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" height="330" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
       </td>
     </tr>
   </table>
@@ -86,26 +86,26 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 ### 🍭 Tech Stack & Palette
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=go,swift,python,java,c,cpp,rust,docker,kubernetes,githubactions&perline=10&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=go,swift,python,java,c,cpp,rust,docker,kubernetes,githubactions&perline=10&theme=light" />
   <br />
   <br />
-  <img src="https://skillicons.dev/icons?i=postgres,redis,prometheus,grafana,linux,git,vim,vscode,idea&perline=10&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=postgres,redis,prometheus,grafana,linux,git,vim,vscode,idea&perline=10&theme=light" />
 </div>
 
 <br />
 
-<!-- 🌸 GALLERY ROW 1 (Moved Bottom) 🌸 -->
+<!-- 🌸 GALLERY ROW 1 (Enlarged 1.5x: 220 -> 330) 🌸 -->
 <div align="center">
-  <table border="0" cellpadding="15">
+  <table border="0" cellpadding="20">
     <tr>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" height="220" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
+        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" height="330" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" height="220" style="border-radius: 15px; border: 4px solid #E0BBE4;" />
+        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" height="330" style="border-radius: 20px; border: 5px solid #FFD1DC;" />
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="220" style="border-radius: 15px; border: 4px solid #D291BC;" />
+        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="330" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
       </td>
     </tr>
   </table>
@@ -114,6 +114,6 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 <br />
 
 <div align="center">
-  <!-- Footer also updated to Pink Gradient -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB6C1,50:FF69B4,100:FF1493&height=120&section=footer&animation=fadeIn" width="100%" />
+  <!-- Footer also updated to Baby Pink Gradient -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE4E1,50:FFB6C1,100:FFC0CB&height=120&section=footer&animation=fadeIn" width="100%" />
 </div>
