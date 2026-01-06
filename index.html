@@ -1,48 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlyingCat | K-Pop Aesthetic Profile</title>
+    <title>FlyingCat | Profile</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Outfit:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Outfit:wght@400;700&family=Pacifico&display=swap"
+        rel="stylesheet">
     <style>
         :root {
-            --primary: #FF69B4; /* Hot Pink */
-            --secondary: #A35DD9; /* Purple */
-            --glass-bg: rgba(255, 255, 255, 0.25);
-            --glass-border: rgba(255, 255, 255, 0.5);
-            --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+            --primary: #FF69B4;
+            /* Hot Pink */
+            --glass-bg: rgba(255, 255, 255, 0.35);
+            --glass-border: rgba(255, 255, 255, 0.7);
+            --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
         }
 
         body {
             margin: 0;
             padding: 0;
-            /* K-Pop Baby Pink Gradient */
-            background: linear-gradient(135deg, #FFE4E1 0%, #FFB6C1 50%, #FFC0CB 100%);
-            background-attachment: fixed;
+            /* ANIMATED GRADIENT BACKGROUND */
+            background: linear-gradient(-45deg, #FFE4E1, #FFB6C1, #FF1493, #E6E6FA);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
             font-family: 'Outfit', sans-serif;
             color: #333;
             overflow-x: hidden;
+            min-height: 100vh;
         }
 
-        /* Glassmorphism Card Utility */
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* BACKGROUND PARTICLES */
+        .circles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .circles li {
+            position: absolute;
+            display: block;
+            list-style: none;
+            width: 20px;
+            height: 20px;
+            background: rgba(255, 255, 255, 0.4);
+            animation: animate 25s linear infinite;
+            bottom: -150px;
+            border-radius: 50%;
+        }
+
+        .circles li:nth-child(1) {
+            left: 25%;
+            width: 80px;
+            height: 80px;
+            animation-delay: 0s;
+        }
+
+        .circles li:nth-child(2) {
+            left: 10%;
+            width: 20px;
+            height: 20px;
+            animation-delay: 2s;
+            animation-duration: 12s;
+        }
+
+        .circles li:nth-child(3) {
+            left: 70%;
+            width: 20px;
+            height: 20px;
+            animation-delay: 4s;
+        }
+
+        .circles li:nth-child(4) {
+            left: 40%;
+            width: 60px;
+            height: 60px;
+            animation-delay: 0s;
+            animation-duration: 18s;
+        }
+
+        .circles li:nth-child(5) {
+            left: 65%;
+            width: 20px;
+            height: 20px;
+            animation-delay: 0s;
+        }
+
+        .circles li:nth-child(6) {
+            left: 75%;
+            width: 110px;
+            height: 110px;
+            animation-delay: 3s;
+        }
+
+        .circles li:nth-child(7) {
+            left: 35%;
+            width: 150px;
+            height: 150px;
+            animation-delay: 7s;
+        }
+
+        .circles li:nth-child(8) {
+            left: 50%;
+            width: 25px;
+            height: 25px;
+            animation-delay: 15s;
+            animation-duration: 45s;
+        }
+
+        .circles li:nth-child(9) {
+            left: 20%;
+            width: 15px;
+            height: 15px;
+            animation-delay: 2s;
+            animation-duration: 35s;
+        }
+
+        .circles li:nth-child(10) {
+            left: 85%;
+            width: 150px;
+            height: 150px;
+            animation-delay: 0s;
+            animation-duration: 11s;
+        }
+
+        @keyframes animate {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+                border-radius: 0;
+            }
+
+            100% {
+                transform: translateY(-1000px) rotate(720deg);
+                opacity: 0;
+                border-radius: 50%;
+            }
+        }
+
+        /* Glassmorphism Card Utility - More Shiny */
         .glass-card {
             background: var(--glass-bg);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
             border-radius: 20px;
             border: 1px solid var(--glass-border);
-            box-shadow: var(--shadow);
+            box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.3);
             padding: 2rem;
             margin: 1rem;
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .glass-card:hover {
             transform: translateY(-5px);
+            box-shadow: 0 15px 40px 0 rgba(255, 105, 180, 0.2);
         }
 
         /* Header Section */
@@ -55,35 +187,64 @@
             text-align: center;
             position: relative;
             padding: 2rem;
+            perspective: 1000px;
         }
 
-        /* Floating Animation for Images */
+        /* Hero Image - Full Size, No Crop */
+        .hero-img-container {
+            width: 350px;
+            /* No fixed height, let image be natural */
+        }
+
+        .hero-img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            border: 5px solid #FFC0CB;
+            box-shadow: 0 10px 40px rgba(255, 182, 193, 0.6);
+            animation: float 6s ease-in-out infinite;
+        }
+
         @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
-            100% { transform: translateY(0px); }
+            0% {
+                transform: translateY(0px) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-20px) rotate(1deg);
+            }
+
+            100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+        }
+
+        .hero-img.delay {
+            animation-delay: 3s;
         }
 
         .hero-container {
             display: flex;
             justify-content: center;
-            align-items: flex-end; /* Bottom align for standing figures */
-            gap: 2rem;
+            align-items: flex-end;
+            gap: 3rem;
             width: 100%;
             max-width: 1400px;
             flex-wrap: wrap;
+            z-index: 2;
         }
 
-        .hero-img {
-            width: 350px;
-            border-radius: 20px;
-            border: 5px solid #FFC0CB;
-            box-shadow: 0 0 30px #FFB6C1;
-            animation: float 6s ease-in-out infinite;
-        }
-        
-        .hero-img.delay {
-            animation-delay: 3s;
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 6rem;
+            background: linear-gradient(to right, #fff, #FFC0CB);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0px 5px 15px rgba(255, 105, 180, 0.4);
+            margin: 0;
+            margin-bottom: 2rem;
+            z-index: 2;
+            animation: fadeIn 2s ease;
         }
 
         .hero-content {
@@ -96,155 +257,159 @@
             z-index: 10;
         }
 
-        h1 {
-            font-family: 'Pacifico', cursive;
-            font-size: 5rem;
-            color: white;
-            text-shadow: 2px 2px 0px var(--primary);
-            margin: 0;
-            margin-bottom: 1rem;
-        }
-
-        .typing-container img {
-            max-width: 100%;
-        }
-
-        .badges {
-            display: flex;
-            gap: 10px;
-            margin-top: 1.5rem;
-        }
-
         .badges img {
-            height: 35px;
-            border-radius: 5px;
-            transition: transform 0.2s;
+            height: 40px;
+            border-radius: 8px;
+            transition: all 0.2s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
         .badges img:hover {
             transform: scale(1.1);
+            filter: brightness(1.1);
         }
 
-        /* Dual Duality Section */
+        /* Titles - GLAMOROUS */
         .section-title {
             text-align: center;
             font-family: 'Pacifico', cursive;
-            font-size: 3rem;
-            color: var(--primary);
-            margin-top: 4rem;
+            font-size: 3.5rem;
+            color: #fff;
+            margin-top: 5rem;
             margin-bottom: 2rem;
-            text-shadow: 2px 20px 20px rgba(255,105,180,0.2);
+            text-shadow: 0 0 10px #FF69B4, 0 0 20px #FF69B4, 0 0 30px #FF1493;
         }
 
-        .duality-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 0 1rem;
-        }
-
-        .duality-card h2 {
-            font-family: 'Outfit', sans-serif;
-            font-weight: 700;
-            margin-top: 0;
-        }
-        
-        .duality-card ul {
-            list-style: none; /* Custom bullets */
-            padding-left: 0;
-            text-align: left;
-        }
-        
-        .duality-card li {
-            margin-bottom: 0.5rem;
-            padding-left: 1.5rem;
-            position: relative;
-        }
-        
-        .duality-card li::before {
-            content: '🍬';
-            position: absolute;
-            left: 0;
-        }
-
-        /* Gallery Section */
+        /* Gallery - FULL IMAGES (Masonry style feel) */
         .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            display: flex;
+            /* Flex allows natural heights better than rigid grid rows */
+            flex-wrap: wrap;
+            justify-content: center;
             gap: 2rem;
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             padding: 2rem;
+        }
+
+        .gallery-col {
+            flex: 1;
+            min-width: 300px;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
         }
 
         .gallery-item {
             border-radius: 20px;
             overflow: hidden;
             border: 5px solid;
-            transition: transform 0.3s;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.4s ease;
         }
-        
+
         .gallery-item:hover {
-            transform: scale(1.05) rotate(1deg);
+            transform: scale(1.03) translateY(-10px);
+            box-shadow: 0 20px 50px rgba(255, 105, 180, 0.4);
+            z-index: 5;
         }
 
         .gallery-item img {
             width: 100%;
-            height: 330px; /* Fixed height match */
-            object-fit: cover;
+            height: auto !important;
+            /* CRITICAL: NO CROP */
             display: block;
         }
 
-        /* Footer */
-        footer {
-            margin-top: 5rem;
-            text-align: center;
-            font-family: 'Fira Code', monospace;
-            color: #666;
-            padding-bottom: 2rem;
+        /* Dual Duality */
+        .duality-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 1rem;
         }
 
-        /* Responsive Tweaks */
+        .duality-card h2 {
+            color: #FF1493;
+        }
+
+        footer {
+            margin-top: 5rem;
+            padding: 3rem;
+            background: rgba(255, 255, 255, 0.2);
+            text-align: center;
+            font-family: 'Fira Code', monospace;
+            color: #555;
+            backdrop-filter: blur(5px);
+        }
+
         @media (max-width: 900px) {
-            .hero-container {
-                flex-direction: column;
-                align-items: center;
+            h1 {
+                font-size: 4rem;
             }
-            .hero-img {
-                width: 280px; /* Smaller on mobile */
+
+            .hero-img-container {
+                width: 100%;
+                max-width: 300px;
             }
-            h1 { font-size: 3.5rem; }
         }
     </style>
 </head>
+
 <body>
+
+    <!-- ANIMATED BACKGROUND PARTICLES -->
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 
     <!-- HERO SECTION -->
     <header>
         <h1>FlyingCat</h1>
         <div class="hero-container">
             <!-- Karina -->
-            <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" class="hero-img" alt="Karina">
-            
+            <div class="hero-img-container">
+                <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449"
+                    class="hero-img" alt="Karina">
+            </div>
+
             <!-- Center Content -->
             <div class="hero-content glass-card">
                 <!-- Tech Typing -->
-                <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=A35DD9&center=true&vCenter=true&width=420&lines=Founder+of+Aequa+Network;Decentralized+Fairness+(FaaS);Founder+of+Motivue;Next-Gen+Wearables+%26+Biometrics;Soldering+Code+%26+Circuits" alt="Tech Typing" />
+                <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=A35DD9&center=true&vCenter=true&width=420&lines=Founder+of+Aequa+Network;Decentralized+Fairness+(FaaS);Founder+of+Motivue;Next-Gen+Wearables+%26+Biometrics;Soldering+Code+%26+Circuits"
+                    alt="Tech Typing" />
                 <br>
-                <!-- Vibe Typing -->
-                <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=500&size=26&pause=800&color=FF69B4&center=true&vCenter=true&width=420&lines=✨+Stan+Talent,+Stan+Code+✨;❤️+Simping+for+Karina+%26+Sana+❤️;🚀+To+the+Moon+%26+Beyond+🚀;🌸+Savage+on+Chain,+Sweet+on+Health+🌸" alt="Vibe Typing" />
-                
-                <div class="badges">
-                    <img src="https://img.shields.io/badge/Gmail-FFB6C1?style=for-the-badge&logo=gmail&logoColor=white" />
+                <!-- BRANDING TYPING (UPDATED) -->
+                <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=500&size=26&pause=800&color=FF69B4&center=true&vCenter=true&width=420&lines=✨+FlyingCat+Systems+✨;🚀+Flying+High,+Building+Fast+🚀;🌸+Savage+Code,+Sweet+Design+🌸"
+                    alt="Vibe Typing" />
+
+                <div class="badges" style="margin-top: 2rem; justify-content: center; display: flex; gap: 15px;">
+                    <img
+                        src="https://img.shields.io/badge/Gmail-FFB6C1?style=for-the-badge&logo=gmail&logoColor=white" />
                     <img src="https://img.shields.io/badge/X-FFC0CB?style=for-the-badge&logo=x&logoColor=white" />
-                    <img src="https://img.shields.io/badge/GitHub-FFE4E1?style=for-the-badge&logo=github&logoColor=black" />
+                    <img
+                        src="https://img.shields.io/badge/GitHub-FFE4E1?style=for-the-badge&logo=github&logoColor=black" />
                 </div>
             </div>
 
             <!-- Sana -->
-            <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" class="hero-img delay" alt="Sana">
+            <div class="hero-img-container">
+                <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da"
+                    class="hero-img delay" alt="Sana">
+            </div>
         </div>
     </header>
 
@@ -262,7 +427,7 @@
                     <li>🍬 <strong>Tech</strong>: AI4Sport Analytics</li>
                 </ul>
             </div>
-            
+
             <!-- Aequa Card -->
             <div class="glass-card duality-card" style="border-top: 5px solid #A35DD9;">
                 <h2>🍭 Aequa Network: Fairness Layer</h2>
@@ -276,40 +441,49 @@
         </div>
     </section>
 
-    <!-- GALLERY ROW 1 (Tech Stack Side) -->
+    <!-- GALLERY (Flex Layout for FULL IMAGES) -->
     <section>
-        <div class="section-title">🍭 Tech Stack 🍭</div>
-        <div class="gallery-grid">
-            <div class="gallery-item" style="border-color: #FFB6C1;">
-                <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" />
-            </div>
-            <div class="gallery-item" style="border-color: #FFD1DC;">
-                <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" />
-            </div>
-            <div class="gallery-item" style="border-color: #FFE4E1;">
-                <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" />
-            </div>
-        </div>
-        
-        <div align="center" style="margin: 2rem;">
-            <div class="glass-card" style="display: inline-block;">
-                <img src="https://skillicons.dev/icons?i=go,swift,python,java,c,cpp,rust,docker,kubernetes,githubactions&perline=10&theme=light" style="margin-bottom: 1rem;"/><br>
-                <img src="https://skillicons.dev/icons?i=postgres,redis,prometheus,grafana,linux,git,vim,vscode,idea&perline=10&theme=light" />
-            </div>
-        </div>
-    </section>
+        <div class="section-title">🍭 Tech Stack & Gallery 🍭</div>
 
-    <!-- GALLERY ROW 2 -->
-    <section style="margin-bottom: 5rem;">
         <div class="gallery-grid">
-            <div class="gallery-item" style="border-color: #FFB6C1;">
-                <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" />
+            <!-- Column 1 -->
+            <div class="gallery-col">
+                <div class="gallery-item" style="border-color: #FFB6C1;">
+                    <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" />
+                </div>
+                <div class="gallery-item" style="border-color: #FFD1DC;">
+                    <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" />
+                </div>
+                <!-- Tech Icons Inserted as Card -->
+                <div class="glass-card" style="text-align: center;">
+                    <img src="https://skillicons.dev/icons?i=go,swift,python,java,c,cpp,rust,docker,kubernetes,githubactions&perline=5&theme=light"
+                        style="width: 100%; max-width: 300px;" />
+                </div>
             </div>
-            <div class="gallery-item" style="border-color: #FFC0CB;">
-                <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" />
+
+            <!-- Column 2 -->
+            <div class="gallery-col">
+                <div class="gallery-item" style="border-color: #FFE4E1;">
+                    <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" />
+                </div>
+                <!-- Tech Icons Inserted as Card -->
+                <div class="glass-card" style="text-align: center;">
+                    <img src="https://skillicons.dev/icons?i=postgres,redis,prometheus,grafana,linux,git,vim,vscode,idea&perline=5&theme=light"
+                        style="width: 100%; max-width: 300px;" />
+                </div>
+                <div class="gallery-item" style="border-color: #FFB6C1;">
+                    <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" />
+                </div>
             </div>
-            <div class="gallery-item" style="border-color: #FFE4E1;">
-                <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" />
+
+            <!-- Column 3 -->
+            <div class="gallery-col">
+                <div class="gallery-item" style="border-color: #FFC0CB;">
+                    <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" />
+                </div>
+                <div class="gallery-item" style="border-color: #FFE4E1;">
+                    <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" />
+                </div>
             </div>
         </div>
     </section>
@@ -321,4 +495,5 @@
     </footer>
 
 </body>
+
 </html>

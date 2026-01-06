@@ -7,8 +7,8 @@
   <table border="0" width="100%">
     <tr>
       <td width="30%" align="center" valign="bottom">
-        <!-- Balanced Size: ~350px -->
-        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="350" alt="Karina aespa" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
+        <!-- Balanced Size: Width fixed, Height Auto (Full Image) -->
+        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="100%" style="max-width:350px; border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
       </td>
       <td width="40%" align="center">
         <!-- DYNAMIC TEXT LAYER 1: Tech/Professional (Code Font) -->
@@ -16,9 +16,10 @@
           <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=A35DD9&center=true&vCenter=true&width=420&lines=Founder+of+Aequa+Network;Decentralized+Fairness+(FaaS);Founder+of+Motivue;Next-Gen+Wearables+%26+Biometrics;Soldering+Code+%26+Circuits" alt="Typing SVG Tech" />
         </a>
         <br/>
-        <!-- DYNAMIC TEXT LAYER 2: Vibe/K-Pop (Handwritten Font) -->
+        <!-- DYNAMIC TEXT LAYER 2: FlyingCat Branding (Handwritten Font) -->
+        <!-- Removed K-Pop references, strictly FlyingCat branding -->
         <a href="https://git.io/typing-svg">
-          <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=500&size=26&pause=800&color=FF69B4&center=true&vCenter=true&width=420&lines=✨+Stan+Talent,+Stan+Code+✨;❤️+Simping+for+Karina+%26+Sana+❤️;🚀+To+the+Moon+%26+Beyond+🚀;🌸+Savage+on+Chain,+Sweet+on+Health+🌸" alt="Typing SVG Vibe" />
+          <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=500&size=26&pause=800&color=FF69B4&center=true&vCenter=true&width=420&lines=✨+FlyingCat+Systems+✨;🚀+Building+the+Future+🚀;🌸+Savage+Code,+Sweet+Design+🌸" alt="Typing SVG Vibe" />
         </a>
         <br/><br/>
         <p>
@@ -36,8 +37,8 @@
         </p>
       </td>
       <td width="30%" align="center" valign="bottom">
-        <!-- Balanced Size: ~350px -->
-        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="350" alt="Sana TWICE" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
+        <!-- Balanced Size: Width fixed, Height Auto (Full Image) -->
+        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="100%" style="max-width:350px; border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
       </td>
     </tr>
   </table>
@@ -66,24 +67,24 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 | **"Feel Special, Be Strong."** | **"Next Level Decentralization."** |
 | 🧸 **Products**: Motiband & Motiring | 💫 **Tech**: Modular DVT Engine (Go) |
 | 💖 **Vibe**: Health, Strength, Autonomy | 🧁 **Vibe**: MEV Resistance, Neutrality |
-| 🍬 **Tech**: AI4Sport Analytics | � **Goal**: The "Justice Layer" of Crypto |
+| 🍬 **Tech**: AI4Sport Analytics | 🎡 **Goal**: The "Justice Layer" of Crypto |
 
 </div>
 
 <br />
 
-<!-- 🌸 GALLERY ROW 2 🌸 -->
+<!-- 🌸 GALLERY ROW 2 (Full Height Images) 🌸 -->
 <div align="center">
   <table border="0" cellpadding="20">
     <tr>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" height="330" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
+      <td align="center" valign="top">
+        <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" width="100%" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
       </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" height="330" style="border-radius: 20px; border: 5px solid #FFC0CB;" />
+      <td align="center" valign="top">
+        <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" width="100%" style="border-radius: 20px; border: 5px solid #FFC0CB;" />
       </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" height="330" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
+      <td align="center" valign="top">
+        <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" width="100%" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
       </td>
     </tr>
   </table>
@@ -109,18 +110,18 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 
 <br />
 
-<!-- 🌸 GALLERY ROW 1 🌸 -->
+<!-- 🌸 GALLERY ROW 1 (Full Height Images) 🌸 -->
 <div align="center">
   <table border="0" cellpadding="20">
     <tr>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" height="330" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
+      <td align="center" valign="top">
+        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" width="100%" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
       </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" height="330" style="border-radius: 20px; border: 5px solid #FFD1DC;" />
+      <td align="center" valign="top">
+        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" width="100%" style="border-radius: 20px; border: 5px solid #FFD1DC;" />
       </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="330" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
+      <td align="center" valign="top">
+        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" width="100%" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
       </td>
     </tr>
   </table>
