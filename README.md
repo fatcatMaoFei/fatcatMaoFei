@@ -48,7 +48,12 @@
 
 ---
 
-### 🧱 The Dual Duality
+<!-- SECTION 1 HEADER: DYNAMIC TYPING SVG -->
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=500&size=40&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=🧱+The+Dual+Duality+🧱;Savage+on+Chain,+Sweet+on+Health;Body+&+Soul+%2F+Flesh+&+Code" alt="The Dual Duality" />
+  </a>
+</div>
 
 > **"Savage on Chain, Sweet on Health."**
 
@@ -88,7 +93,12 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 
 ---
 
-### 🍭 Tech Stack & Palette
+<!-- SECTION 2 HEADER: DYNAMIC TYPING SVG -->
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&pause=1000&color=A35DD9&center=true&vCenter=true&width=600&lines=🍭+Tech+Stack+&+Palette+🍭;Loading+Skills...;System+Ready." alt="Tech Stack" />
+  </a>
+</div>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=go,swift,python,java,c,cpp,rust,docker,kubernetes,githubactions&perline=10&theme=light" />
