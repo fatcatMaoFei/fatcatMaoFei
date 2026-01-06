@@ -64,6 +64,8 @@
 
 I engineer systems in two diverging worlds, unified by the drive for **Fairness** and **Autonomy**.
 
+**🎓 University of Melbourne** | **🐨 Based in Aussie** | **🦘 FlyingCat Systems**
+
 <div align="center">
 
 | **🎀 Motivue: Wearable Intelligence** | **🍭 Aequa Network: Fairness Layer** |

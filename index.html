@@ -193,7 +193,15 @@
         /* Hero Image - Full Size, No Crop */
         .hero-img-container {
             width: 350px;
-            /* No fixed height, let image be natural */
+            position: relative;
+            z-index: 50;
+            /* Z-INDEX FIX: Bring images/links ABOVE content */
+        }
+
+        .hero-img-container a {
+            display: block;
+            position: relative;
+            z-index: 51;
         }
 
         .hero-img {
@@ -203,6 +211,8 @@
             border: 5px solid #FFC0CB;
             box-shadow: 0 10px 40px rgba(255, 182, 193, 0.6);
             animation: float 6s ease-in-out infinite;
+            cursor: pointer;
+            /* Interaction hint */
         }
 
         @keyframes float {
@@ -412,6 +422,24 @@
             </div>
         </div>
     </header>
+
+    <!-- EDUCATION & BASE (New Section) -->
+    <section>
+        <div class="glass-card" style="max-width: 800px; margin: 2rem auto; text-align: center;">
+            <h2 style="font-family: 'Pacifico', cursive; color: #FF69B4; font-size: 2.5rem; margin-top: 0;">🎓
+                University of Melbourne</h2>
+            <p style="font-size: 1.2rem; color: #555;">
+                <strong>Mastering Systems</strong> at Australia's #1 University.
+            </p>
+            <div style="font-size: 3rem; margin: 1rem 0;">
+                🐨 🇦🇺 🦘
+            </div>
+            <p>
+                Based in <strong>Melbourne</strong> (Naarm). Combining <span style="color:#FF1493">Koala Cuteness</span>
+                with <span style="color:#A35DD9">Hardcore Engineering</span>.
+            </p>
+        </div>
+    </section>
 
     <!-- DUAL DUALITY -->
     <section>
