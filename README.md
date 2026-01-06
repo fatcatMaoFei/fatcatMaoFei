@@ -64,7 +64,7 @@
 
 I engineer systems in two diverging worlds, unified by the drive for **Fairness** and **Autonomy**.
 
-**🎓 University of Melbourne** | **🐨 Based in Aussie** | **🦘 FlyingCat Systems**
+**🎓 University of Melbourne** | **🌆 Based in Shenzhen** | **🦘 FlyingCat Systems**
 
 <div align="center">
 
