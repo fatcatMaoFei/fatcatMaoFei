@@ -40,46 +40,18 @@
 
 <br />
 
-<!-- 🌸 K-POP GALLERY: SIDE-BY-SIDE TRIANGLES 🌸 -->
+<!-- 🌸 GALLERY ROW 1 🌸 -->
 <div align="center">
-  <table border="0" width="100%">
+  <table border="0" cellpadding="15">
     <tr>
-      <!-- Left Triangle Container -->
-      <td width="50%" align="center" valign="top">
-        <table border="0" cellpadding="10">
-          <tr>
-            <td colspan="2" align="center">
-              <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" height="180" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
-            </td>
-          </tr>
-          <tr>
-            <td align="center">
-              <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" height="180" style="border-radius: 15px; border: 4px solid #E0BBE4;" />
-            </td>
-            <td align="center">
-              <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="180" style="border-radius: 15px; border: 4px solid #D291BC;" />
-            </td>
-          </tr>
-        </table>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" height="220" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
       </td>
-      
-      <!-- Right Triangle Container -->
-      <td width="50%" align="center" valign="top">
-        <table border="0" cellpadding="10">
-          <tr>
-            <td colspan="2" align="center">
-              <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" height="180" style="border-radius: 15px; border: 4px solid #FEC8D8;" />
-            </td>
-          </tr>
-          <tr>
-            <td align="center">
-              <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" height="180" style="border-radius: 15px; border: 4px solid #FFDFD3;" />
-            </td>
-            <td align="center">
-              <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" height="180" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
-            </td>
-          </tr>
-        </table>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" height="220" style="border-radius: 15px; border: 4px solid #E0BBE4;" />
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="220" style="border-radius: 15px; border: 4px solid #D291BC;" />
       </td>
     </tr>
   </table>
@@ -105,6 +77,27 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 | 🔮 **Tech**: AI4Sport Analytics | 🌐 **Goal**: The "Justice Layer" of Crypto |
 
 </div>
+
+<br />
+
+<!-- 🌸 GALLERY ROW 2 🌸 -->
+<div align="center">
+  <table border="0" cellpadding="15">
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" height="220" style="border-radius: 15px; border: 4px solid #FEC8D8;" />
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" height="220" style="border-radius: 15px; border: 4px solid #FFDFD3;" />
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" height="220" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
 
 ---
 
