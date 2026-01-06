@@ -1,6 +1,7 @@
 <div align="center">
-  <!-- AESPA x TWICE Header Gradient -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF3399,50:A35DD9,100:FCC89B&height=320&section=header&text=Ziming%20Liu&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Building%20Systems%20for%20Body%20&%20Blockchain&descSize=25&descAlignY=55&descAlign=50" alt="Ziming Liu K-Pop Header" width="100%" />
+  <!-- AESPA x TWICE Header Gradient: PINK EDITION -->
+  <!-- Name changed to FlyingCat, Gradient shifted to full Pink spectrum -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF1493,50:FF69B4,100:FFB6C1&height=320&section=header&text=FlyingCat&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Building%20Systems%20for%20Body%20&%20Blockchain&descSize=25&descAlignY=55&descAlign=50" alt="FlyingCat K-Pop Header" width="100%" />
 
   <!-- Integrated Visuals: Karina (Left) | Content (Center) | Sana (Right) -->
   <table border="0" width="100%">
@@ -113,5 +114,6 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 <br />
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FCC89B,50:A35DD9,100:FF3399&height=120&section=footer&animation=fadeIn" width="100%" />
+  <!-- Footer also updated to Pink Gradient -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB6C1,50:FF69B4,100:FF1493&height=120&section=footer&animation=fadeIn" width="100%" />
 </div>
