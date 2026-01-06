@@ -4,7 +4,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC0CB,50:FFB6C1,100:FFE4E1&height=320&section=header&text=FlyingCat&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Building%20Systems%20for%20Body%20&%20Blockchain&descSize=25&descAlignY=55&descAlign=50" alt="FlyingCat K-Pop Header" width="100%" />
 
   <!-- Integrated Visuals: BALANCED LAYOUT (3-Column) -->
-  <!-- Reverted to side-by-side but with wider image columns (30% - 40% - 30%) -->
   <table border="0" width="100%">
     <tr>
       <td width="30%" align="center" valign="bottom">
@@ -12,9 +11,14 @@
         <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="350" alt="Karina aespa" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
       </td>
       <td width="40%" align="center">
-        <!-- Animated Typing with Baby Pink Colors -->
+        <!-- DYNAMIC TEXT LAYER 1: Tech/Professional (Code Font) -->
         <a href="https://git.io/typing-svg">
-          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF69B4&center=true&vCenter=true&width=420&lines=Founder+of+Aequa+Network;Founder+of+Motivue;Next-Gen+Wearables+%26+Biometrics;Decentralized+Fairness+(FaaS);Stan+Talent,+Stan+Code" alt="Typing SVG" />
+          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=A35DD9&center=true&vCenter=true&width=420&lines=Founder+of+Aequa+Network;Decentralized+Fairness+(FaaS);Founder+of+Motivue;Next-Gen+Wearables+%26+Biometrics;Soldering+Code+%26+Circuits" alt="Typing SVG Tech" />
+        </a>
+        <br/>
+        <!-- DYNAMIC TEXT LAYER 2: Vibe/K-Pop (Handwritten Font) -->
+        <a href="https://git.io/typing-svg">
+          <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=500&size=26&pause=800&color=FF69B4&center=true&vCenter=true&width=420&lines=✨+Stan+Talent,+Stan+Code+✨;❤️+Simping+for+Karina+%26+Sana+❤️;🚀+To+the+Moon+%26+Beyond+🚀;🌸+Savage+on+Chain,+Sweet+on+Health+🌸" alt="Typing SVG Vibe" />
         </a>
         <br/><br/>
         <p>
