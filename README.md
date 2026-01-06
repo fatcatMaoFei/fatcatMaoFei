@@ -40,25 +40,6 @@
 
 <br />
 
-<!-- 🌸 GALLERY ROW 1 🌸 -->
-<div align="center">
-  <table border="0" cellpadding="15">
-    <tr>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" height="220" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" height="220" style="border-radius: 15px; border: 4px solid #E0BBE4;" />
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="220" style="border-radius: 15px; border: 4px solid #D291BC;" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br />
-
 ---
 
 ### 🧱 The Dual Duality
@@ -80,7 +61,7 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 
 <br />
 
-<!-- 🌸 GALLERY ROW 2 🌸 -->
+<!-- 🌸 GALLERY ROW 2 (Now First) 🌸 -->
 <div align="center">
   <table border="0" cellpadding="15">
     <tr>
@@ -108,6 +89,25 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
   <br />
   <br />
   <img src="https://skillicons.dev/icons?i=postgres,redis,prometheus,grafana,linux,git,vim,vscode,idea&perline=10&theme=dark" />
+</div>
+
+<br />
+
+<!-- 🌸 GALLERY ROW 1 (Moved Bottom) 🌸 -->
+<div align="center">
+  <table border="0" cellpadding="15">
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" height="220" style="border-radius: 15px; border: 4px solid #FFB6C1;" />
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" height="220" style="border-radius: 15px; border: 4px solid #E0BBE4;" />
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="220" style="border-radius: 15px; border: 4px solid #D291BC;" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br />
