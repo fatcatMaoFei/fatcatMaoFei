@@ -6,8 +6,8 @@
   <table border="0" width="100%">
     <tr>
       <td width="20%" align="center" valign="bottom">
-        <!-- Using blob?raw=true link for better accessibility in China -->
-        <img src="https://github.com/fatcatMaoFei/fatcatMaoFei/blob/main/assets/karina_aespa.png?raw=true" width="180" alt="Karina aespa" style="border-radius: 15px; box-shadow: 0px 0px 20px #A35DD9;" />
+        <!-- Stable GitHub Issue Attachment URL -> Karina -->
+        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="180" alt="Karina aespa" style="border-radius: 15px; box-shadow: 0px 0px 20px #A35DD9;" />
       </td>
       <td width="60%" align="center">
         <!-- Animated Typing with Neon Colors -->
@@ -28,8 +28,8 @@
         </p>
       </td>
       <td width="20%" align="center" valign="bottom">
-        <!-- Using blob?raw=true link for better accessibility in China -->
-        <img src="https://github.com/fatcatMaoFei/fatcatMaoFei/blob/main/assets/sana_twice.png?raw=true" width="180" alt="Sana TWICE" style="border-radius: 15px; box-shadow: 0px 0px 20px #FCC89B;" />
+        <!-- Stable GitHub Issue Attachment URL -> Sana -->
+        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="180" alt="Sana TWICE" style="border-radius: 15px; box-shadow: 0px 0px 20px #FCC89B;" />
       </td>
     </tr>
   </table>
