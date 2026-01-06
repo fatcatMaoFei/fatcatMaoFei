@@ -3,11 +3,11 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF3399,50:A35DD9,100:FCC89B&height=320&section=header&text=Ziming%20Liu&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Building%20Systems%20for%20Body%20&%20Blockchain&descSize=25&descAlignY=55&descAlign=50" alt="Ziming Liu K-Pop Header" width="100%" />
 
   <!-- Integrated Visuals: Karina (Left) | Content (Center) | Sana (Right) -->
-  <!-- Switched to absolute raw.githubusercontent URLs to fix loading issues -->
   <table border="0" width="100%">
     <tr>
       <td width="20%" align="center" valign="bottom">
-        <img src="https://raw.githubusercontent.com/fatcatMaoFei/fatcatMaoFei/main/assets/karina_aespa.png" width="180" alt="Karina aesthetic" style="border-radius: 15px; box-shadow: 0px 0px 20px #A35DD9;" />
+        <!-- Using blob?raw=true link for better accessibility in China -->
+        <img src="https://github.com/fatcatMaoFei/fatcatMaoFei/blob/main/assets/karina_aespa.png?raw=true" width="180" alt="Karina aespa" style="border-radius: 15px; box-shadow: 0px 0px 20px #A35DD9;" />
       </td>
       <td width="60%" align="center">
         <!-- Animated Typing with Neon Colors -->
@@ -28,7 +28,8 @@
         </p>
       </td>
       <td width="20%" align="center" valign="bottom">
-        <img src="https://raw.githubusercontent.com/fatcatMaoFei/fatcatMaoFei/main/assets/sana_twice.png" width="180" alt="Sana aesthetic" style="border-radius: 15px; box-shadow: 0px 0px 20px #FCC89B;" />
+        <!-- Using blob?raw=true link for better accessibility in China -->
+        <img src="https://github.com/fatcatMaoFei/fatcatMaoFei/blob/main/assets/sana_twice.png?raw=true" width="180" alt="Sana TWICE" style="border-radius: 15px; box-shadow: 0px 0px 20px #FCC89B;" />
       </td>
     </tr>
   </table>
