@@ -5,11 +5,11 @@
   <!-- Integrated Visuals: Karina (Left) | Content (Center) | Sana (Right) -->
   <table border="0" width="100%">
     <tr>
-      <td width="20%" align="center" valign="bottom">
-        <!-- Stable GitHub Issue Attachment URL -> Karina -->
-        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="180" alt="Karina aespa" style="border-radius: 15px; box-shadow: 0px 0px 20px #A35DD9;" />
+      <td width="25%" align="center" valign="bottom">
+        <!-- Enlarged + Fancy Border: Karina -->
+        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="280" alt="Karina aespa" style="border-radius: 20px; border: 4px solid #A35DD9; box-shadow: 0px 0px 25px #A35DD9, 0px 0px 10px #FF3399;" />
       </td>
-      <td width="60%" align="center">
+      <td width="50%" align="center">
         <!-- Animated Typing with Neon Colors -->
         <a href="https://git.io/typing-svg">
           <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF3399&center=true&vCenter=true&width=500&lines=Founder+of+Aequa+Network;Founder+of+Motivue;Next-Gen+Wearables+%26+Biometrics;Decentralized+Fairness+(FaaS);Stan+Talent,+Stan+Code" alt="Typing SVG" />
@@ -17,35 +17,32 @@
         <br/><br/>
         <p>
           <a href="mailto:zmliu0208@gmail.com">
-            <img src="https://img.shields.io/badge/Gmail-FF3399?style=for-the-badge&logo=gmail&logoColor=white" height="28" />
+            <img src="https://img.shields.io/badge/Gmail-FF3399?style=for-the-badge&logo=gmail&logoColor=white" height="35" />
           </a>
+          <br/><br/>
           <a href="https://x.com/AequaNetwork">
-            <img src="https://img.shields.io/badge/X-A35DD9?style=for-the-badge&logo=x&logoColor=white" height="28" />
+            <img src="https://img.shields.io/badge/X-A35DD9?style=for-the-badge&logo=x&logoColor=white" height="35" />
           </a>
+          <br/><br/>
           <a href="https://github.com/fatcatMaoFei">
-            <img src="https://img.shields.io/badge/GitHub-FCC89B?style=for-the-badge&logo=github&logoColor=white" height="28" />
+            <img src="https://img.shields.io/badge/GitHub-FCC89B?style=for-the-badge&logo=github&logoColor=white" height="35" />
           </a>
         </p>
       </td>
-      <td width="20%" align="center" valign="bottom">
-        <!-- Stable GitHub Issue Attachment URL -> Sana -->
-        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="180" alt="Sana TWICE" style="border-radius: 15px; box-shadow: 0px 0px 20px #FCC89B;" />
+      <td width="25%" align="center" valign="bottom">
+        <!-- Enlarged + Fancy Border: Sana -->
+        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="280" alt="Sana TWICE" style="border-radius: 20px; border: 4px solid #FCC89B; box-shadow: 0px 0px 25px #FCC89B, 0px 0px 10px #FF3399;" />
       </td>
     </tr>
   </table>
 
 </div>
 
-<!-- Trophies -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=fatcatMaoFei&theme=tokyonight&no-frame=true&column=7&margin-w=15&margin-h=15" alt="Trophies" />
-</div>
-
 <br />
 
 ---
 
-### <img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="35"> The Dual Duality
+### 🧱 The Dual Duality
 
 > **"Savage on Chain, Sweet on Health."**
 
@@ -55,7 +52,6 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 
 | **⌚ Motivue: Wearable Intelligence** | **🧱 Aequa Network: Fairness Layer** |
 | :---: | :---: |
-| <img src="https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif" width="220" style="border-radius: 10px; border: 2px solid #FCC89B;"> | <img src="https://media.giphy.com/media/LIdwqEcEpmOGWhXLzc/giphy.gif" width="220" style="border-radius: 10px; border: 2px solid #A35DD9;"> |
 | **"Feel Special, Be Strong."** | **"Next Level Decentralization."** |
 | 🚀 **Products**: Motiband & Motiring | ⚡ **Tech**: Modular DVT Engine (Go) |
 | ❤️ **Vibe**: Health, Strength, Autonomy | 🛡️ **Vibe**: MEV Resistance, Neutrality |
@@ -72,22 +68,6 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
   <br />
   <br />
   <img src="https://skillicons.dev/icons?i=postgres,redis,prometheus,grafana,linux,git,vim,vscode,idea&perline=10&theme=dark" />
-</div>
-
----
-
-### 📊 MY WORLD (Stats)
-
-<div align="center">
-  <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=fatcatMaoFei&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117" height="180" alt="Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fatcatMaoFei&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="180" alt="Languages" />
-</div>
-
-<div align="center">
-  <br/>
-  <!-- Streak Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fatcatMaoFei&theme=dark&hide_border=true&background=0d1117&ring=FF3399&fire=FCC89B&currStreakLabel=FCC89B" alt="Streak" />
 </div>
 
 <br />
