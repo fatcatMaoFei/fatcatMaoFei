@@ -474,6 +474,336 @@
         </div>
     </section>
 
+    <!-- TIMELINE SECTION -->
+    <section>
+        <div class="section-title">⏳ My Journey ⏳</div>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content glass-card">
+                    <h2>👶 Born in Shenzhen</h2>
+                    <p>The Origin Story. A tech hub native.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content glass-card">
+                    <h2>📘 University of Sydney</h2>
+                    <p>Undergraduate Studies. Exploring the foundations.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content glass-card">
+                    <h2>🎓 University of Melbourne</h2>
+                    <p>Mastering Systems. Advanced computations & innovation.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content glass-card">
+                    <h2>🌆 Base in Shenzhen</h2>
+                    <p>Current Chapter. Building FlyingCat Systems & Aequa Network.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MUSIC SECTION -->
+    <section>
+        <div class="section-title">🎵 Vibe Check 🎵</div>
+        <div class="music-grid">
+            <!-- Next Level -->
+            <a href="https://www.youtube.com/watch?v=4TWR90KJl84" target="_blank" class="music-card">
+                <img src="https://i.scdn.co/image/ab67616d0000b2739da4932115167664c399c51a" alt="Next Level">
+                <p>Next Level</p>
+            </a>
+            <!-- What is Love? -->
+            <a href="https://www.youtube.com/watch?v=i0p1bmr0EmE" target="_blank" class="music-card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273295968d40742f896b054236a" alt="What is Love?">
+                <p>What is Love?</p>
+            </a>
+            <!-- Savage -->
+            <a href="https://www.youtube.com/watch?v=WPdWvnAAurg" target="_blank" class="music-card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273d6e5df5a61e0506eb6f3945c" alt="Savage">
+                <p>Savage</p>
+            </a>
+            <!-- Fancy -->
+            <a href="https://www.youtube.com/watch?v=kOHB85vDuow" target="_blank" class="music-card">
+                <img src="https://i.scdn.co/image/ab67616d0000b27320f78d3810c97825b44cb735" alt="Fancy">
+                <p>Fancy</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- GAME SECTION -->
+    <section style="text-align: center; margin-bottom: 5rem;">
+        <div class="glass-card" style="display: inline-block;">
+            <h2>🎮 FlyingCat Adventure</h2>
+            <p>Help the cat fly through the candy pipes!</p>
+            <button onclick="startGame()"
+                style="background: #FF69B4; color: white; border: none; padding: 15px 30px; border-radius: 30px; font-size: 1.2rem; cursor: pointer; font-family: 'Pacifico', cursive; box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);">
+                Start Game 🚀
+            </button>
+        </div>
+    </section>
+
+    <!-- GAME MODAL -->
+    <div id="gameModal" class="modal">
+        <div class="modal-content glass-card" style="text-align: center;">
+            <span class="close" onclick="closeGame()">&times;</span>
+            <canvas id="gameCanvas" width="320" height="480"
+                style="border: 2px solid #FF69B4; border-radius: 10px; background: #FFE4E1;"></canvas>
+            <p style="color: #666; font-size: 0.9rem;">Tap SPACE or Click to Fly!</p>
+        </div>
+    </div>
+
+    <!-- STYLE INJECTION FOR NEW FEATURES -->
+    <style>
+        /* Timeline */
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #FFB6C1;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+            border-radius: 3px;
+        }
+
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+            box-sizing: border-box;
+        }
+
+        .timeline-item.left {
+            left: 0;
+        }
+
+        .timeline-item.right {
+            left: 50%;
+        }
+
+        .timeline-item::after {
+            content: '🌸';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -17px;
+            background-color: #fff;
+            border: 4px solid #FF69B4;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+            font-size: 1.2rem;
+            line-height: 25px;
+            text-align: center;
+        }
+
+        .timeline-item.right::after {
+            left: -16px;
+        }
+
+        /* Music Grid */
+        .music-grid {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto 3rem auto;
+        }
+
+        .music-card {
+            width: 200px;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.3s;
+        }
+
+        .music-card:hover {
+            transform: scale(1.1) rotate(2deg);
+        }
+
+        .music-card img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .music-card p {
+            margin-top: 10px;
+            font-weight: bold;
+            font-family: 'Pacifico', cursive;
+            color: #FF1493;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 100;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            margin: 5% auto;
+            width: fit-content;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #000;
+        }
+    </style>
+
+    <!-- GAME SCRIPT -->
+    <script>
+        const canvas = document.getElementById("gameCanvas");
+        const ctx = canvas.getContext("2d");
+        let frames = 0;
+        let score = 0;
+        let gameRunning = false;
+
+        // Game State
+        const state = { current: 0, getReady: 0, game: 1, over: 2 };
+
+        // Loop
+        function loop() {
+            if (!gameRunning) return;
+            update();
+            draw();
+            frames++;
+            requestAnimationFrame(loop);
+        }
+
+        function startGame() {
+            document.getElementById('gameModal').style.display = 'block';
+            resetGame();
+            gameRunning = true;
+            loop();
+        }
+
+        function closeGame() {
+            document.getElementById('gameModal').style.display = 'none';
+            gameRunning = false;
+        }
+
+        function resetGame() {
+            frames = 0;
+            score = 0;
+            bird.y = 150;
+            bird.speed = 0;
+            pipes.position = [];
+            state.current = state.game;
+        }
+
+        // Controls
+        window.addEventListener("keydown", function (e) {
+            if (e.code === "Space") bird.flap();
+        });
+        canvas.addEventListener("click", function () {
+            bird.flap();
+        });
+
+        // Objects
+        const bird = {
+            x: 50, y: 150, radius: 12, speed: 0, gravity: 0.25, jump: 4.5,
+            draw: function () {
+                ctx.fillStyle = "#FF69B4";
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fill();
+                // Face
+                ctx.fillStyle = "#FFF";
+                ctx.beginPath(); ctx.arc(this.x + 5, this.y - 2, 4, 0, Math.PI * 2); ctx.fill();
+                ctx.fillStyle = "black";
+                ctx.beginPath(); ctx.arc(this.x + 6, this.y - 2, 1.5, 0, Math.PI * 2); ctx.fill();
+            },
+            flap: function () { this.speed = -this.jump; },
+            update: function () {
+                this.speed += this.gravity;
+                this.y += this.speed;
+                if (this.y + this.radius >= canvas.height) resetGame();
+            }
+        };
+
+        const pipes = {
+            position: [], w: 40, h: 100, gap: 100, dx: 2,
+            draw: function () {
+                ctx.fillStyle = "#A35DD9";
+                for (let i = 0; i < this.position.length; i++) {
+                    let p = this.position[i];
+                    let topY = p.y;
+                    let bottomY = p.y + this.h + this.gap;
+                    ctx.fillRect(p.x, 0, this.w, topY);
+                    ctx.fillRect(p.x, bottomY, this.w, canvas.height - bottomY);
+                }
+            },
+            update: function () {
+                if (frames % 100 === 0) {
+                    this.position.push({ x: canvas.width, y: Math.random() * (canvas.height - 150 - this.gap) });
+                }
+                for (let i = 0; i < this.position.length; i++) {
+                    let p = this.position[i];
+                    p.x -= this.dx;
+                    if (p.x + this.w <= 0) {
+                        this.position.shift();
+                        score++;
+                    }
+                    // Collision
+                    if (bird.x + bird.radius > p.x && bird.x - bird.radius < p.x + this.w &&
+                        (bird.y - bird.radius < p.y || bird.y + bird.radius > p.y + this.h + this.gap)) {
+                        resetGame();
+                    }
+                }
+            }
+        };
+
+        const bg = {
+            draw: function () {
+                ctx.fillStyle = "#FFE4E1";
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+            }
+        };
+
+        function draw() {
+            bg.draw();
+            pipes.draw();
+            bird.draw();
+            ctx.fillStyle = "#FFF";
+            ctx.font = "30px Pacifico";
+            ctx.fillText(score, canvas.width / 2, 50);
+            ctx.strokeText(score, canvas.width / 2, 50);
+        }
+
+        function update() {
+            bird.update();
+            pipes.update();
+        }
+    </script>
+
     <!-- DUAL DUALITY -->
     <section>
         <div class="section-title">🍰 The Dual Duality 🍰</div>

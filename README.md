@@ -139,3 +139,50 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
   <!-- Footer also updated to Baby Pink Gradient -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE4E1,50:FFB6C1,100:FFC0CB&height=120&section=footer&animation=fadeIn" width="100%" />
 </div>
+
+<br />
+
+<!-- 📊 HARDCORE ENGINEERING STATS 📊 -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=FF1493&center=true&vCenter=true&width=500&lines=Hardcore+Engineering;Data+Driven.+Pink+Powered." alt="Stats Header" />
+  
+  <br/>
+  
+  <!-- Stats Card: Pink Theme -->
+  <img src="https://github-readme-stats.vercel.app/api?username=fatcatMaoFei&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF69B4&icon_color=FF1493&text_color=FFB6C1" />
+  
+  <!-- Top Langs: Pink Theme -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fatcatMaoFei&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF69B4&text_color=FFB6C1" />
+</div>
+
+<br />
+
+<!-- 🐍 SNAKE CONTRIBUTION GRAPH 🐍 -->
+<div align="center">
+  <img src="https://github.com/fatcatMaoFei/fatcatMaoFei/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
+</div>
+
+<br />
+
+<!-- 🎧 SPOTIFY & JOURNEY 🎧 -->
+<table border="0" width="100%">
+    <tr>
+        <td width="50%" valign="top" align="center">
+            <h3>⏳ My Journey</h3>
+            <ul style="list-style-type: none; padding: 0; text-align: left; display: inline-block;">
+                <li>👶 <strong>Born in Shenzhen</strong>: The Origin.</li>
+                <li>📘 <strong>University of Sydney</strong>: Foundations.</li>
+                <li>🎓 <strong>University of Melbourne</strong>: Systems Mastery.</li>
+                <li>🌆 <strong>Base in Shenzhen</strong>: Building the Future.</li>
+            </ul>
+        </td>
+        <td width="50%" valign="top" align="center">
+            <h3>🎧 Now Playing</h3>
+            <!-- Using Novatorem or similar service, placeholder image for structure if not set up -->
+            <a href="https://spotify-github-profile.vercel.app/api/view?uid=your_spotify_user_id&cover_image=true&theme=novatorem&bar_color=FF69B4&bar_color_cover=false">
+                <img src="https://spotify-github-profile.vercel.app/api/view?uid=31...&cover_image=true&theme=novatorem&bar_color=FF69B4&bar_color_cover=false" alt="Spotify" />
+            </a>
+            <p><em>(Auto-updating Music Vibe)</em></p>
+        </td>
+    </tr>
+</table>
