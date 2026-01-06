@@ -760,27 +760,106 @@
         }
 
         function processCommand(cmd) {
+            const output = (text) => printOutput(text); // Helper
+
             switch (cmd) {
+                // --- CORE COMMANDS ---
                 case 'help':
-                    printOutput("Available commands: whoami, skills, social, clear, uname");
+                    output("Available commands: whoami, skills, social, clear");
+                    output("Try finding Easter Eggs! (Hint: names, idols, tech...)");
                     break;
                 case 'whoami':
-                    printOutput("FlyingCat (Ziming Liu). \nFull Stack Engineer. \nLover of Cats, Code, and K-Pop.");
+                    output("FlyingCat (Ziming Liu). \nFull Stack Engineer. \nLover of Cats, Code, and K-Pop.");
                     break;
                 case 'skills':
-                    printOutput("Languages: Go, Swift, Rust, Python\nInfra: Docker, K8s, AWS\nVibe: 100%");
+                    output("Languages: Go, Swift, Rust, Python\nInfra: Docker, K8s, AWS\nVibe: 100%");
                     break;
                 case 'social':
-                    printOutput("GitHub: https://github.com/fatcatMaoFei\nTwitter: @AequaNetwork");
-                    break;
-                case 'uname':
-                    printOutput("Darwin Kernel Version 23.0.0: root:xnu-10002.1.13~1/RELEASE_ARM64_T6000");
+                    output("GitHub: https://github.com/fatcatMaoFei\nTwitter: @AequaNetwork");
                     break;
                 case 'clear':
                     terminalOutput.innerHTML = '';
                     break;
+
+                // --- USER REQUESTED EGGS ---
+                case 'zhanghaodong':
+                    output("fuck you 🖕");
+                    break;
+                case 'sana':
+                    output("No Sana No Life 🐹🍭\nShe is the sunshine of the world.");
+                    break;
+                case 'karina':
+                    output("Karina is GOD 💙👼\nAESPA's Leader & AI Visual.");
+                    break;
+
+                // --- K-POP EGGS ---
+                case 'aespa':
+                    output("Be my ae! 🐍✨\nDrama ma ma ma ma...");
+                    break;
+                case 'twice':
+                    output("One in a million! 🍭\nWhat is Love?");
+                    break;
+                case 'mina':
+                    output("Black Swan 🩰\nElegant & Quiet.");
+                    break;
+                case 'momo':
+                    output("Dancing Mochine 💃\nMade in Japan.");
+                    break;
+                case 'winter':
+                    output("Armamenter ⚔️\nSavage High Note.");
+                    break;
+                case 'ningning':
+                    output("Main Vocal Queen 🦋\nSpicy!");
+                    break;
+                case 'misamo':
+                    output("Masterpiece. Do not touch. 🖼️");
+                    break;
+
+                // --- TECH EGGS ---
+                case 'go':
+                    output("Gopher power! 🐹\nSimplicity is complicated.");
+                    break;
+                case 'rust':
+                    output("Borrow checker is watching you. 🦀\nMemory safe & blazingly fast.");
+                    break;
+                case 'swift':
+                    output("Safe, fast, and expressive. 🍎\nThinking in SwiftUI.");
+                    break;
+                case 'python':
+                    output("Import this. 🐍\nExplicit is better than implicit.");
+                    break;
+                case 'sudo':
+                    output("Nice try. You have no power here. 🔒");
+                    break;
+                case 'rm -rf':
+                    output("Don't even think about it. 🛑");
+                    break;
+                case 'vim':
+                    output(":wq! (Good luck exiting)");
+                    break;
+
+                // --- PERSONAL & FUN EGGS ---
+                case 'flyingcat':
+                    output("Meow! Ready to fly? 🐱✈️");
+                    break;
+                case 'shenzhen':
+                    output("Silicon Valley of Hardware. My City. 🌆");
+                    break;
+                case 'melbourne':
+                    output("Coffee capital. Quality education. ☕🎓");
+                    break;
+                case 'love':
+                    output("Error 404: Love not found. (Just kidding, I love Code & Sana)");
+                    break;
+                case 'coffee':
+                    output("Fueling the system... ☕ LOADING...");
+                    break;
+                case 'status':
+                    output("System Operational. Vibe check: PASSED.");
+                    break;
+
                 default:
-                    printOutput(`Command not found: ${cmd}`);
+                    output(`Command not found: ${cmd}`);
             }
         }
     </script>
