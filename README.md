@@ -135,6 +135,21 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 
 <br />
 
+<br />
+
+<!-- ⏳ TIMELINE ⏳ -->
+<div align="center">
+  <h3>⏳ My Journey ⏳</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>👶 <strong>Born in Shenzhen</strong>: The Origin Story.</li>
+    <li>📘 <strong>University of Sydney</strong>: Undergraduate Foundations.</li>
+    <li>🎓 <strong>University of Melbourne</strong>: Masters in Systems.</li>
+    <li>🌆 <strong>Base in Shenzhen</strong>: Building FlyingCat Systems.</li>
+  </ul>
+</div>
+
+<br />
+
 <div align="center">
   <!-- Footer also updated to Baby Pink Gradient -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE4E1,50:FFB6C1,100:FFC0CB&height=120&section=footer&animation=fadeIn" width="100%" />
