@@ -8,7 +8,9 @@
     <tr>
       <td width="30%" align="center" valign="bottom">
         <!-- Balanced Size: Width fixed, Height Auto (Full Image) -->
-        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="100%" style="max-width:350px; border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
+        <a href="https://www.instagram.com/katarinabluu">
+          <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="100%" style="max-width:350px; border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
+        </a>
       </td>
       <td width="40%" align="center">
         <!-- DYNAMIC TEXT LAYER 1: Tech/Professional (Code Font) -->
@@ -38,7 +40,9 @@
       </td>
       <td width="30%" align="center" valign="bottom">
         <!-- Balanced Size: Width fixed, Height Auto (Full Image) -->
-        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="100%" style="max-width:350px; border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
+        <a href="https://www.instagram.com/m.by__sana">
+          <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="100%" style="max-width:350px; border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
+        </a>
       </td>
     </tr>
   </table>
