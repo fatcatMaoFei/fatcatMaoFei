@@ -51,7 +51,7 @@
 <!-- SECTION 1 HEADER: DYNAMIC TYPING SVG -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=500&size=40&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=🧱+The+Dual+Duality+🧱;Savage+on+Chain,+Sweet+on+Health;Body+&+Soul+%2F+Flesh+&+Code" alt="The Dual Duality" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=500&size=40&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=🍰+The+Dual+Duality+🍰;Savage+on+Chain,+Sweet+on+Health;Body+&+Soul+%2F+Flesh+&+Code" alt="The Dual Duality" />
   </a>
 </div>
 
@@ -61,12 +61,12 @@ I engineer systems in two diverging worlds, unified by the drive for **Fairness*
 
 <div align="center">
 
-| **⌚ Motivue: Wearable Intelligence** | **🧱 Aequa Network: Fairness Layer** |
+| **🎀 Motivue: Wearable Intelligence** | **🍭 Aequa Network: Fairness Layer** |
 | :---: | :---: |
 | **"Feel Special, Be Strong."** | **"Next Level Decentralization."** |
-| 🚀 **Products**: Motiband & Motiring | ⚡ **Tech**: Modular DVT Engine (Go) |
-| ❤️ **Vibe**: Health, Strength, Autonomy | 🛡️ **Vibe**: MEV Resistance, Neutrality |
-| 🔮 **Tech**: AI4Sport Analytics | 🌐 **Goal**: The "Justice Layer" of Crypto |
+| 🧸 **Products**: Motiband & Motiring | 💫 **Tech**: Modular DVT Engine (Go) |
+| 💖 **Vibe**: Health, Strength, Autonomy | 🧁 **Vibe**: MEV Resistance, Neutrality |
+| 🍬 **Tech**: AI4Sport Analytics | � **Goal**: The "Justice Layer" of Crypto |
 
 </div>
 
