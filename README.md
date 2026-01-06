@@ -7,8 +7,8 @@
   <table border="0" width="100%">
     <tr>
       <td width="25%" align="center" valign="bottom">
-        <!-- Enlarged 1.5x (280 -> 420) + Baby Pink Border -->
-        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="420" alt="Karina aespa" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
+        <!-- Enlarged MAX (420 -> 550) + Baby Pink Border -->
+        <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="550" alt="Karina aespa" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
       </td>
       <td width="50%" align="center">
         <!-- Animated Typing with Baby Pink Colors -->
@@ -31,8 +31,8 @@
         </p>
       </td>
       <td width="25%" align="center" valign="bottom">
-        <!-- Enlarged 1.5x (280 -> 420) + Baby Pink Border -->
-        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="420" alt="Sana TWICE" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
+        <!-- Enlarged MAX (420 -> 550) + Baby Pink Border -->
+        <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="550" alt="Sana TWICE" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
       </td>
     </tr>
   </table>
