@@ -1,156 +1,51 @@
 <div align="center">
-  <!-- AESPA x TWICE Header Gradient: BABY PINK EDITION -->
-  <!-- Colors shifted to soft Baby Pink / Pastel range -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC0CB,50:FFB6C1,100:FFE4E1&height=320&section=header&text=FlyingCat&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Building%20Systems%20for%20Body%20&%20Blockchain&descSize=25&descAlignY=55&descAlign=50" alt="FlyingCat K-Pop Header" width="100%" />
+  <h1>Hi, I'm Ziming Liu 👋</h1>
+  <h3>Building Systems for AI, Security & Blockchain</h3>
 
-  <!-- Integrated Visuals: BALANCED LAYOUT (3-Column) -->
-  <table border="0" width="100%">
-    <tr>
-      <td width="30%" align="center" valign="bottom">
-        <!-- Balanced Size: ~350px -->
-        <a href="https://www.instagram.com/katarinabluu">
-          <img src="https://github.com/user-attachments/assets/d08487e0-3179-4ba9-a046-a4518b057449" width="350" alt="Karina aespa" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
-        </a>
-      </td>
-      <td width="40%" align="center">
-        <!-- DYNAMIC TEXT LAYER 1: Tech/Professional (Code Font) -->
-        <a href="https://git.io/typing-svg">
-          <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=A35DD9&center=true&vCenter=true&width=420&lines=Founder+of+Aequa+Network;Decentralized+Fairness+(FaaS);Founder+of+Motivue;Next-Gen+Wearables+%26+Biometrics;Soldering+Code+%26+Circuits" alt="Typing SVG Tech" />
-        </a>
-        <br/>
-        <!-- DYNAMIC TEXT LAYER 2: FlyingCat Branding (Handwritten Font) -->
-        <!-- Removed K-Pop references, strictly FlyingCat branding -->
-        <a href="https://git.io/typing-svg">
-          <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=500&size=26&pause=800&color=FF69B4&center=true&vCenter=true&width=420&lines=✨+FlyingCat+Systems+✨;🚀+Building+the+Future+🚀;🌸+Savage+Code,+Sweet+Design+🌸" alt="Typing SVG Vibe" />
-        </a>
-        <br/><br/>
-        <p>
-          <a href="mailto:zmliu0208@gmail.com">
-            <img src="https://img.shields.io/badge/Gmail-FFB6C1?style=for-the-badge&logo=gmail&logoColor=white" height="35" />
-          </a>
-          <br/><br/>
-          <a href="https://x.com/AequaNetwork">
-            <img src="https://img.shields.io/badge/X-FFC0CB?style=for-the-badge&logo=x&logoColor=white" height="35" />
-          </a>
-          <br/><br/>
-          <a href="https://github.com/fatcatMaoFei">
-            <img src="https://img.shields.io/badge/GitHub-FFE4E1?style=for-the-badge&logo=github&logoColor=black" height="35" />
-          </a>
-        </p>
-      </td>
-      <td width="30%" align="center" valign="bottom">
-        <!-- Balanced Size: ~350px -->
-        <a href="https://www.instagram.com/m.by__sana">
-          <img src="https://github.com/user-attachments/assets/39ebd277-de54-4aa0-8675-be9d82c059da" width="350" alt="Sana TWICE" style="border-radius: 20px; border: 5px solid #FFC0CB; box-shadow: 0px 0px 30px #FFB6C1, 0px 0px 15px #FFE4E1;" />
-        </a>
-      </td>
-    </tr>
-  </table>
-
+  <p>
+    <a href="mailto:zmliu0208@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25" /></a>
+    <a href="https://x.com/AequaNetwork"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="25" /></a>
+    <a href="https://github.com/fatcatMaoFei"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="25" /></a>
+  </p>
 </div>
-
-<br />
 
 ---
 
-<!-- SECTION 1 HEADER: DYNAMIC TYPING SVG -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&weight=500&size=40&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=🍰+The+Dual+Duality+🍰;Savage+on+Chain,+Sweet+on+Health;Body+&+Soul+%2F+Flesh+&+Code" alt="The Dual Duality" />
-  </a>
-</div>
+### 🚀 Current Focus
 
-> **"Savage on Chain, Sweet on Health."**
+My core focus lies in **AI Emotional Companionship** and **AI Security**, driving **AI Application Landing** that is both empathetic and secure.
 
-I engineer systems in two diverging worlds, unified by the drive for **Fairness** and **Autonomy**.
-
-**🎓 University of Melbourne** | **🌆 Based in Shenzhen** | **🦘 FlyingCat Systems**
-
-<div align="center">
-
-| **🎀 Motivue: Wearable Intelligence** | **🍭 Aequa Network: Fairness Layer** |
-| :---: | :---: |
-| **"Feel Special, Be Strong."** | **"Next Level Decentralization."** |
-| 🧸 **Products**: Motiband & Motiring | 💫 **Tech**: Modular DVT Engine (Go) |
-| 💖 **Vibe**: Health, Strength, Autonomy | 🧁 **Vibe**: MEV Resistance, Neutrality |
-| 🍬 **Tech**: AI4Sport Analytics | 🎡 **Goal**: The "Justice Layer" of Crypto |
-
-</div>
-
-<br />
-
-<!-- 🌸 GALLERY ROW 2 (Full Height Images) 🌸 -->
-<div align="center">
-  <table border="0" cellpadding="20">
-    <tr>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/a342295d-18e6-4e1a-9f2e-2f2e8e49e2f2" height="330" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/46636b83-afe4-455b-8873-8d52bdf46086" height="330" style="border-radius: 20px; border: 5px solid #FFC0CB;" />
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/3e8b714d-ffb1-4bab-bcaf-ba5131213319" height="330" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br />
+- 🧠 **AI Emotional Companionship**: Building LLM-based systems that understand and connect with users on a deeper emotional level (e.g., MindCore - currently closed-source for commercial reasons).
+- 🛡️ **AI Security**: Developing guardrails, prompt injection defenses, and secure agentic workflows (e.g., [OpenClaw Guardian](https://github.com/fatcatMaoFei/OpenClawGuardian)).
+- 💡 **AI Application Landing**: Engineering scalable architectures to bring AI research into production-ready platforms.
 
 ---
 
-<!-- SECTION 2 HEADER: DYNAMIC TYPING SVG -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&pause=1000&color=A35DD9&center=true&vCenter=true&width=600&lines=🍭+Tech+Stack+&+Palette+🍭;Loading+Skills...;System+Ready." alt="Tech Stack" />
-  </a>
-</div>
+### 💻 Tech Stack
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=go,swift,python,java,c,cpp,rust,docker,kubernetes,githubactions&perline=10&theme=light" />
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=go,swift,python,java,c,cpp,rust,docker,kubernetes,githubactions&perline=10" />
   <br />
   <br />
-  <img src="https://skillicons.dev/icons?i=postgres,redis,prometheus,grafana,linux,git,vim,vscode,idea&perline=10&theme=light" />
+  <img src="https://skillicons.dev/icons?i=postgres,redis,prometheus,grafana,linux,git,vim,vscode,idea&perline=10" />
 </div>
 
-<br />
+---
 
-<!-- 🌸 GALLERY ROW 1 (Full Height Images) 🌸 -->
-<div align="center">
-  <table border="0" cellpadding="20">
-    <tr>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/7113de6a-157b-4099-8ad6-4118cbc6f8f0" height="330" style="border-radius: 20px; border: 5px solid #FFB6C1;" />
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/9949558c-1dd8-43b9-a1ba-eec164685814" height="330" style="border-radius: 20px; border: 5px solid #FFD1DC;" />
-      </td>
-      <td align="center">
-        <img src="https://github.com/user-attachments/assets/0a56d490-ced3-4f60-8587-0272a7d2affc" height="330" style="border-radius: 20px; border: 5px solid #FFE4E1;" />
-      </td>
-    </tr>
-  </table>
-</div>
+### 🛠️ Legacy & Ongoing Projects
 
-<br />
+I also continue to maintain my original projects in decentralized systems and wearables:
 
-<br />
+| Project | Description | Tech |
+| :--- | :--- | :--- |
+| **Aequa Network: Fairness Layer** | The Justice Layer of Crypto aiming for MEV Resistance and Neutrality. | Modular DVT Engine (Go) |
+| **Motivue: Wearable Intelligence** | Next-Gen Wearables & Biometrics (Motiband & Motiring). | AI4Sport Analytics |
 
-<!-- ⏳ TIMELINE ⏳ -->
-<div align="center">
-  <h3>⏳ My Journey ⏳</h3>
-  <ul style="list-style-type: none; padding: 0;">
-    <li>👶 <strong>Born in Shenzhen</strong>: The Origin Story.</li>
-    <li>📘 <strong>University of Sydney</strong>: Undergraduate Foundations.</li>
-    <li>🎓 <strong>University of Melbourne</strong>: Computing Systems.</li>
-    <li>🌆 <strong>Base in Shenzhen</strong>: Building FlyingCat Systems.</li>
-  </ul>
-</div>
+---
 
-<br />
+### ⏳ My Journey
 
-<div align="center">
-  <!-- Footer also updated to Baby Pink Gradient -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFE4E1,50:FFB6C1,100:FFC0CB&height=120&section=footer&animation=fadeIn" width="100%" />
-</div>
+- 👶 **Born in Shenzhen**: The Origin Story.
+- 📘 **University of Sydney**: Undergraduate Foundations.
+- 🎓 **University of Melbourne**: Computing Systems.
+- 🌆 **Base in Shenzhen**: Building FlyingCat Systems.
