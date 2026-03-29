@@ -1,6 +1,6 @@
 # Ziming Liu
 
-**Head of Australia @ SkyPhy Technology** | Melbourne, Australia
+**Head of Australia @ SkyPhy** | Melbourne, Australia
 
 AI infrastructure builder, open-source contributor to Claude Code & OpenClaw, CS student at University of Melbourne.
 
@@ -8,7 +8,7 @@ AI infrastructure builder, open-source contributor to Claude Code & OpenClaw, CS
 
 ### What I Do
 
-- **SkyPhy Technology** — AI infrastructure, enterprise deployment, and distributed database solutions (OceanBase / Ant Group referral partner)
+- **SkyPhy** — AI infrastructure, enterprise deployment, and distributed database solutions (OceanBase / Ant Group referral partner)
 - **Open-source** — Contributor to [anthropics/claude-code](https://github.com/anthropics/claude-code) and [OpenClaw](https://github.com/open-claw) ecosystems
 - **OpenClaw Guardian** — Safety architecture for AI agent execution with sandboxing, permission control, and audit logging
 - **Production AI systems** — Built autonomous agents with persistent memory, Telegram integration, and cross-device deployment
