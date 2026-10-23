@@ -1,6 +1,6 @@
 # Ziming Liu
 
-**Co-founder @ SkyPhy** | Melbourne, Australia
+**Co-founder @ Motee** | Melbourne, Australia
 
 GPU cluster building & RDMA high-speed networking. Open-source contributor to Claude Code & OpenClaw. CS student at University of Melbourne.
 
@@ -8,7 +8,7 @@ GPU cluster building & RDMA high-speed networking. Open-source contributor to Cl
 
 ### What I Do
 
-- **SkyPhy** — GPU cluster building, RDMA networking, GPU leasing & inference optimization. Backed by a technical team with 10,000+ GPU cluster experience. [skyphy.org](https://skyphy.org)
+- **Motee** — GPU cluster building, RDMA networking, GPU leasing & inference optimization. Backed by a technical team with 10,000+ GPU cluster experience. 
 - **Open-source** — Contributor to [anthropics/claude-code](https://github.com/anthropics/claude-code) and [OpenClaw](https://github.com/open-claw) ecosystems
 - **OpenClaw Guardian** — Safety architecture for AI agent execution with sandboxing, permission control, and audit logging
 - **Production AI systems** — Built autonomous agents with persistent memory, Telegram integration, and cross-device deployment
