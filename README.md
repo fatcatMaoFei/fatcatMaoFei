@@ -1,4 +1,4 @@
-# Ziming Liu
+# Zach
 
 **Co-founder at Motee** · Melbourne, Australia · CS student at the University of Melbourne
 
