@@ -1,39 +1,20 @@
 # Ziming Liu
 
-**Co-founder @ Motee** | Melbourne, Australia
+**Co-founder at Motee** · Melbourne, Australia · CS student at the University of Melbourne
 
-GPU cluster building & RDMA high-speed networking. Open-source contributor to Claude Code & OpenClaw. CS student at University of Melbourne.
+I build AI infrastructure and products, and contribute to open-source tools I use.
 
----
+### What I do
 
-### What I Do
+- **Motee** — Building AI products and infrastructure, from customer-facing systems to deployment and operations.
+- **Open source** — Contributing to the [Claude Code](https://github.com/anthropics/claude-code) and [OpenClaw](https://github.com/open-claw) ecosystems.
+- **SIAH** — Head of Community at [Shenzhen International AI and Hardware](https://siah.moteelabs.com/siah/), connecting AI and hardware builders across Shenzhen, Hong Kong, and international communities.
 
-- **Motee** — GPU cluster building, RDMA networking, GPU leasing & inference optimization. Backed by a technical team with 10,000+ GPU cluster experience. 
-- **Open-source** — Contributor to [anthropics/claude-code](https://github.com/anthropics/claude-code) and [OpenClaw](https://github.com/open-claw) ecosystems
-- **OpenClaw Guardian** — Safety architecture for AI agent execution with sandboxing, permission control, and audit logging
-- **Production AI systems** — Built autonomous agents with persistent memory, Telegram integration, and cross-device deployment
+### Focus
 
----
-
-### Tech
-
-**Languages:** Python, Go, JavaScript/TypeScript, C, Swift
-
-**AI/ML:** Claude Code, OpenClaw, MCP Protocol, RAG, Multi-Model Orchestration
-
-**Infra:** Docker, PostgreSQL, Tailscale, Linux, RDMA/InfiniBand
-
----
-
-### Currently
-
-- Building AI infrastructure at SkyPhy for the Australian market
-- Contributing to open-source AI tooling (Claude Code, OpenClaw)
-- Growing the Melbourne AI community
-
----
+AI systems · Agent tooling · GPU infrastructure · Community building
 
 ### Links
 
-- Email: [zmliu0208@gmail.com](mailto:zmliu0208@gmail.com)
-- GitHub: [fatcatMaoFei](https://github.com/fatcatMaoFei)
+- [SIAH](https://siah.moteelabs.com/siah/)
+- [Email](mailto:zmliu0208@gmail.com)
