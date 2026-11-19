@@ -14,6 +14,12 @@ I build AI infrastructure and products, and contribute to open-source tools I us
 
 AI systems · Agent tooling · GPU infrastructure · Community building
 
+### Research preprints
+
+- [High-Coverage Blind Spots in Online Abuse Monitoring: Account Selection, Held-Out Flagging Rates, and Sample Composition](https://arxiv.org/abs/2611.22716)
+- [Covariate Support and Identifiability of Latent Group Error Rates](https://www.alphaxiv.org/abs/2611.covariate-support-latent-error-rates)
+- [Changing a View Is Not Amending a Record: Timing and Visibility in a Model of Public Correction](https://arxiv.org/abs/2611.20540)
+
 ### Links
 
 - [SIAH](https://siah.moteelabs.com/siah/)
