@@ -1,6 +1,6 @@
 # Zach Liu
 
-**Co-founder at Motee** · Melbourne, Australia · CS student at the University of Melbourne
+**Co-founder at Motee** · Melbourne, Australia ·From University of Melbourne
 
 I build AI infrastructure and products, and contribute to open-source tools I use.
 
